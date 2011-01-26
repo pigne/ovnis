@@ -63,11 +63,7 @@ main(int argc, char ** argv)
 
   CommandLine cmd;
 
-  std::string sumoConfig =
-  //"/Users/pigne/Documents/Luxembourg/projects/TrafficSimulation/SimpleRouteChange/routeChange.sumo.cfg"
-      "/Users/pigne/Documents/Projects/TrafficSimulation/SimpleTrafficApplication/kirchberg.sumo.cfg"
-  //"/home/pigne/Documents/Luxembourg/projects/TrafficSimulation/SimpleRouteChange/routeChange.sumo.cfg"
-  ;
+  std::string sumoConfig ="kirchberg.sumo.cfg" ;
 
   int startTime = 4000;
   int stopTime = 5000;
@@ -75,7 +71,7 @@ main(int argc, char ** argv)
   bool startSumo= true;
 
   string sumoHost="localhost";
-  string sumoPath="/opt/sumo/bin/sumo";
+  string sumoPath="/opt/sumo/bin/sumo-gui";
   cmd.AddValue("sumoConfig", "The SUMO xml config file", sumoConfig);
   cmd.AddValue("sumoHost", "Name of the machine hosting SUMO", sumoHost);
   cmd.AddValue("startTime",
