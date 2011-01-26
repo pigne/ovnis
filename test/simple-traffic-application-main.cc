@@ -63,7 +63,7 @@ main(int argc, char ** argv)
 
   CommandLine cmd;
 
-  std::string sumoConfig ="kirchberg.sumo.cfg" ;
+  std::string sumoConfig = "kirchberg.sumo.cfg" ;
 
   int startTime = 4000;
   int stopTime = 5000;
