@@ -1,714 +1,0 @@
-Output log file from sumo's execution.Loading configuration... done.
-Loading net-file from '/Users/pigne/Documents/Projects/TrafficSimulation/SimpleTrafficApplication/kirchberg.net.xml' ...  done (353ms).
-Loading done.
-Simulation started with time: 3500.00
-Step #3500.00***Starting server on port 1235 ***
- (1ms ~= 1000.00*RT, ~0.00UPS, vehicles TOT 0 ACT 0)             Step #3501.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3502.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3503.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3504.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3505.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3506.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3507.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3508.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3509.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3510.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3511.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3512.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3513.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3514.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3515.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3516.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3517.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3518.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3519.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3520.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3521.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3522.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3523.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3524.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3525.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3526.00 (1ms ~= 1000.00*RT, ~0.00UPS, vehicles TOT 0 ACT 0)             Step #3527.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3528.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3529.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3530.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3531.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3532.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3533.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3534.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3535.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3536.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3537.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3538.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3539.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3540.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3541.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3542.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3543.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3544.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3545.00 (1ms ~= 1000.00*RT, ~0.00UPS, vehicles TOT 0 ACT 0)             Step #3546.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3547.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3548.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3549.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3550.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3551.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3552.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3553.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3554.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3555.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3556.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3557.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3558.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3559.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3560.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3561.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3562.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3563.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3564.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3565.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3566.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3567.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3568.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3569.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3570.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3571.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3572.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3573.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3574.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3575.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3576.00 (1ms ~= 1000.00*RT, ~0.00UPS, vehicles TOT 0 ACT 0)             Step #3577.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3578.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3579.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3580.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3581.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3582.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3583.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3584.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3585.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3586.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3587.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3588.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3589.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3590.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3591.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3592.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3593.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3594.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3595.00 (1ms ~= 1000.00*RT, ~0.00UPS, vehicles TOT 0 ACT 0)             Step #3596.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3597.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3598.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3599.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3600.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3601.00 (0ms ?*RT. ?UPS, vehicles TOT 0 ACT 0)                          Step #3602.00 (0ms ?*RT. ?UPS, vehicles TOT 1 ACT 1)                          Step #3603.00 (1ms ~= 1000.00*RT, ~2000.00UPS, vehicles TOT 2 ACT 2)          Step #3604.00 (0ms ?*RT. ?UPS, vehicles TOT 2 ACT 2)                          Step #3605.00 (0ms ?*RT. ?UPS, vehicles TOT 3 ACT 3)                          Step #3606.00 (0ms ?*RT. ?UPS, vehicles TOT 3 ACT 3)                          Step #3607.00 (1ms ~= 1000.00*RT, ~7000.00UPS, vehicles TOT 7 ACT 7)          Step #3608.00 (0ms ?*RT. ?UPS, vehicles TOT 7 ACT 7)                          Step #3609.00 (0ms ?*RT. ?UPS, vehicles TOT 8 ACT 8)                          Step #3610.00 (1ms ~= 1000.00*RT, ~10000.00UPS, vehicles TOT 10 ACT 10)       Step #3611.00 (0ms ?*RT. ?UPS, vehicles TOT 10 ACT 10)                        Step #3612.00 (0ms ?*RT. ?UPS, vehicles TOT 10 ACT 10)                        Step #3613.00 (0ms ?*RT. ?UPS, vehicles TOT 11 ACT 11)                        Step #3614.00 (1ms ~= 1000.00*RT, ~15000.00UPS, vehicles TOT 15 ACT 15)       Step #3615.00 (0ms ?*RT. ?UPS, vehicles TOT 15 ACT 15)                        Step #3616.00 (0ms ?*RT. ?UPS, vehicles TOT 16 ACT 16)                        Step #3617.00 (1ms ~= 1000.00*RT, ~17000.00UPS, vehicles TOT 17 ACT 17)       Step #3618.00 (0ms ?*RT. ?UPS, vehicles TOT 18 ACT 18)                        Step #3619.00 (0ms ?*RT. ?UPS, vehicles TOT 19 ACT 19)                        Step #3620.00 (0ms ?*RT. ?UPS, vehicles TOT 19 ACT 19)                        Step #3621.00 (1ms ~= 1000.00*RT, ~22000.00UPS, vehicles TOT 22 ACT 22)       Step #3622.00 (0ms ?*RT. ?UPS, vehicles TOT 23 ACT 23)                        Step #3623.00 (0ms ?*RT. ?UPS, vehicles TOT 23 ACT 23)                        Step #3624.00 (0ms ?*RT. ?UPS, vehicles TOT 23 ACT 23)                        Step #3625.00 (1ms ~= 1000.00*RT, ~25000.00UPS, vehicles TOT 25 ACT 25)       Step #3626.00 (0ms ?*RT. ?UPS, vehicles TOT 25 ACT 25)                        Step #3627.00 (1ms ~= 1000.00*RT, ~26000.00UPS, vehicles TOT 26 ACT 26)       Step #3628.00 (0ms ?*RT. ?UPS, vehicles TOT 30 ACT 30)                        Step #3629.00 (1ms ~= 1000.00*RT, ~31000.00UPS, vehicles TOT 31 ACT 31)       Step #3630.00 (0ms ?*RT. ?UPS, vehicles TOT 31 ACT 31)                        Step #3631.00 (1ms ~= 1000.00*RT, ~32000.00UPS, vehicles TOT 32 ACT 32)       Step #3632.00 (0ms ?*RT. ?UPS, vehicles TOT 33 ACT 33)                        Step #3633.00 (0ms ?*RT. ?UPS, vehicles TOT 34 ACT 34)                        Step #3634.00 (1ms ~= 1000.00*RT, ~34000.00UPS, vehicles TOT 34 ACT 34)       Step #3635.00 (0ms ?*RT. ?UPS, vehicles TOT 38 ACT 38)                        Step #3636.00 (1ms ~= 1000.00*RT, ~39000.00UPS, vehicles TOT 39 ACT 39)       Step #3637.00 (0ms ?*RT. ?UPS, vehicles TOT 39 ACT 39)                        Step #3638.00 (1ms ~= 1000.00*RT, ~40000.00UPS, vehicles TOT 40 ACT 40)       Step #3639.00 (0ms ?*RT. ?UPS, vehicles TOT 41 ACT 41)                        Step #3640.00 (1ms ~= 1000.00*RT, ~43000.00UPS, vehicles TOT 43 ACT 43)       Step #3641.00 (0ms ?*RT. ?UPS, vehicles TOT 44 ACT 44)                        Step #3642.00 (1ms ~= 1000.00*RT, ~45000.00UPS, vehicles TOT 45 ACT 45)       Step #3643.00 (0ms ?*RT. ?UPS, vehicles TOT 46 ACT 46)                        Step #3644.00 (1ms ~= 1000.00*RT, ~47000.00UPS, vehicles TOT 47 ACT 47)       Step #3645.00Warning: Teleporting vehicle 'l2_h1_c0'; waited too long, lane='49248915#0_1', time=3645.00.
-Warning: Vehicle 'l2_h1_c0' ends teleporting on edge '49248915#1', simulation time 3645.00.
- (1ms ~= 1000.00*RT, ~49000.00UPS, vehicles TOT 49 ACT 49)       Step #3646.00 (0ms ?*RT. ?UPS, vehicles TOT 52 ACT 52)                        Step #3647.00 (1ms ~= 1000.00*RT, ~52000.00UPS, vehicles TOT 52 ACT 52)       Step #3648.00 (1ms ~= 1000.00*RT, ~52000.00UPS, vehicles TOT 52 ACT 52)       Step #3649.00 (0ms ?*RT. ?UPS, vehicles TOT 54 ACT 54)                        Step #3650.00 (1ms ~= 1000.00*RT, ~57000.00UPS, vehicles TOT 57 ACT 57)       Step #3651.00 (0ms ?*RT. ?UPS, vehicles TOT 58 ACT 58)                        Step #3652.00 (1ms ~= 1000.00*RT, ~58000.00UPS, vehicles TOT 58 ACT 58)       Step #3653.00 (1ms ~= 1000.00*RT, ~59000.00UPS, vehicles TOT 59 ACT 59)       Step #3654.00 (0ms ?*RT. ?UPS, vehicles TOT 61 ACT 61)                        Step #3655.00 (1ms ~= 1000.00*RT, ~61000.00UPS, vehicles TOT 61 ACT 61)       Step #3656.00 (1ms ~= 1000.00*RT, ~62000.00UPS, vehicles TOT 62 ACT 62)       Step #3657.00 (0ms ?*RT. ?UPS, vehicles TOT 66 ACT 66)                        Step #3658.00 (0ms ?*RT. ?UPS, vehicles TOT 66 ACT 66)                        Step #3659.00Warning: Teleporting vehicle 'l2_h1_c1'; waited too long, lane='49248915#0_0', time=3659.00.
-Warning: Vehicle 'l2_h1_c1' ends teleporting on edge '49248915#1', simulation time 3659.00.
- (1ms ~= 1000.00*RT, ~67000.00UPS, vehicles TOT 67 ACT 67)       Step #3660.00 (0ms ?*RT. ?UPS, vehicles TOT 68 ACT 68)                        Step #3661.00 (1ms ~= 1000.00*RT, ~68000.00UPS, vehicles TOT 68 ACT 68)       Step #3662.00 (1ms ~= 1000.00*RT, ~69000.00UPS, vehicles TOT 69 ACT 69)       Step #3663.00Warning: Teleporting vehicle 'l2_h1_c2'; waited too long, lane='49248915#0_1', time=3663.00.
-Warning: Vehicle 'l2_h1_c2' ends teleporting on edge '49248915#1', simulation time 3663.00.
- (0ms ?*RT. ?UPS, vehicles TOT 70 ACT 70)                        Step #3664.00 (1ms ~= 1000.00*RT, ~73000.00UPS, vehicles TOT 73 ACT 73)       Step #3665.00 (1ms ~= 1000.00*RT, ~73000.00UPS, vehicles TOT 73 ACT 73)       Step #3666.00 (1ms ~= 1000.00*RT, ~74000.00UPS, vehicles TOT 74 ACT 74)       Step #3667.00 (0ms ?*RT. ?UPS, vehicles TOT 74 ACT 74)                        Step #3668.00Warning: Teleporting vehicle 'l5_h1_c0'; waited too long, lane='-26988747#4_0', time=3668.00.
-Warning: Vehicle 'l5_h1_c0' ends teleporting on edge '-26988747#3', simulation time 3668.00.
- (1ms ~= 1000.00*RT, ~76000.00UPS, vehicles TOT 76 ACT 76)       Step #3669.00 (1ms ~= 1000.00*RT, ~76000.00UPS, vehicles TOT 76 ACT 76)       Step #3670.00 (1ms ~= 1000.00*RT, ~76000.00UPS, vehicles TOT 76 ACT 76)       Step #3671.00 (1ms ~= 1000.00*RT, ~80000.00UPS, vehicles TOT 80 ACT 80)       Step #3672.00 (2ms ~= 500.00*RT, ~41000.00UPS, vehicles TOT 82 ACT 82)        Step #3673.00 (1ms ~= 1000.00*RT, ~82000.00UPS, vehicles TOT 82 ACT 82)       Step #3674.00 (1ms ~= 1000.00*RT, ~83000.00UPS, vehicles TOT 83 ACT 83)       Step #3675.00 (1ms ~= 1000.00*RT, ~84000.00UPS, vehicles TOT 84 ACT 84)       Step #3676.00Warning: Teleporting vehicle 'l2_h1_c0'; waited too long, lane='23595097#0_0', time=3676.00.
-Warning: Vehicle 'l2_h1_c0' ends teleporting on edge '23595097#1', simulation time 3676.00.
- (1ms ~= 1000.00*RT, ~85000.00UPS, vehicles TOT 85 ACT 85)       Step #3677.00Warning: Teleporting vehicle 'l2_h1_c3'; waited too long, lane='49248915#0_1', time=3677.00.
-Warning: Vehicle 'l2_h1_c3' ends teleporting on edge '49248915#1', simulation time 3677.00.
- (1ms ~= 1000.00*RT, ~87000.00UPS, vehicles TOT 87 ACT 87)       Step #3678.00 (1ms ~= 1000.00*RT, ~88000.00UPS, vehicles TOT 88 ACT 88)       Step #3679.00 (2ms ~= 500.00*RT, ~44000.00UPS, vehicles TOT 88 ACT 88)        Step #3680.00Warning: Teleporting vehicle 'l6_h1_c1'; waited too long, lane='26721801#2_0', time=3680.00.
-Warning: Vehicle 'l6_h1_c1' ends teleporting on edge '-28959165#3', simulation time 3680.00.
- (1ms ~= 1000.00*RT, ~89000.00UPS, vehicles TOT 89 ACT 89)       Step #3681.00 (1ms ~= 1000.00*RT, ~91000.00UPS, vehicles TOT 91 ACT 91)       Step #3682.00 (1ms ~= 1000.00*RT, ~93000.00UPS, vehicles TOT 93 ACT 93)       Step #3683.00 (1ms ~= 1000.00*RT, ~94000.00UPS, vehicles TOT 94 ACT 94)       Step #3684.00 (1ms ~= 1000.00*RT, ~94000.00UPS, vehicles TOT 94 ACT 94)       Step #3685.00 (1ms ~= 1000.00*RT, ~96000.00UPS, vehicles TOT 96 ACT 96)       Step #3686.00 (2ms ~= 500.00*RT, ~49500.00UPS, vehicles TOT 99 ACT 99)        Step #3687.00 (1ms ~= 1000.00*RT, ~99000.00UPS, vehicles TOT 99 ACT 99)       Step #3688.00 (1ms ~= 1000.00*RT, ~100000.00UPS, vehicles TOT 100 ACT 100)    Step #3689.00 (2ms ~= 500.00*RT, ~50500.00UPS, vehicles TOT 101 ACT 101)      Step #3690.00 (1ms ~= 1000.00*RT, ~102000.00UPS, vehicles TOT 102 ACT 102)    Step #3691.00 (1ms ~= 1000.00*RT, ~103000.00UPS, vehicles TOT 103 ACT 103)    Step #3692.00 (1ms ~= 1000.00*RT, ~104000.00UPS, vehicles TOT 104 ACT 104)    Step #3693.00 (2ms ~= 500.00*RT, ~53500.00UPS, vehicles TOT 107 ACT 107)      Step #3694.00Warning: Teleporting vehicle 'l2_h1_c1'; waited too long, lane='23595097#0_0', time=3694.00.
-Warning: Teleporting vehicle 'l6_h1_c2'; waited too long, lane='26721801#2_0', time=3694.00.
-Warning: Vehicle 'l2_h1_c1' ends teleporting on edge '23595097#1', simulation time 3694.00.
-Warning: Vehicle 'l6_h1_c2' ends teleporting on edge '-28959165#3', simulation time 3694.00.
- (1ms ~= 1000.00*RT, ~108000.00UPS, vehicles TOT 108 ACT 108)    Step #3695.00Warning: Teleporting vehicle 'l2_h1_c2'; waited too long, lane='23595097#0_1', time=3695.00.
-Warning: Teleporting vehicle 'l5_h1_c4'; waited too long, lane='28965686_0', time=3695.00.
-Warning: Vehicle 'l2_h1_c2' ends teleporting on edge '23595097#1', simulation time 3695.00.
-Warning: Vehicle 'l5_h1_c4' ends teleporting on edge '-26988747#4', simulation time 3695.00.
- (1ms ~= 1000.00*RT, ~108000.00UPS, vehicles TOT 108 ACT 108)    Step #3696.00 (1ms ~= 1000.00*RT, ~109000.00UPS, vehicles TOT 109 ACT 109)    Step #3697.00 (2ms ~= 500.00*RT, ~55000.00UPS, vehicles TOT 110 ACT 110)      Step #3698.00 (1ms ~= 1000.00*RT, ~110000.00UPS, vehicles TOT 110 ACT 110)    Step #3699.00 (1ms ~= 1000.00*RT, ~111000.00UPS, vehicles TOT 111 ACT 111)    Step #3700.00 (2ms ~= 500.00*RT, ~58000.00UPS, vehicles TOT 116 ACT 116)      Step #3701.00 (1ms ~= 1000.00*RT, ~116000.00UPS, vehicles TOT 116 ACT 116)    Step #3702.00 (2ms ~= 500.00*RT, ~58000.00UPS, vehicles TOT 116 ACT 116)      Step #3703.00 (1ms ~= 1000.00*RT, ~118000.00UPS, vehicles TOT 118 ACT 118)    Step #3704.00Warning: Teleporting vehicle 'l2_h1_t0'; waited too long, lane='49248919#0_0', time=3704.00.
-Warning: Vehicle 'l2_h1_t0' ends teleporting on edge '49248919#1', simulation time 3704.00.
- (1ms ~= 1000.00*RT, ~118000.00UPS, vehicles TOT 118 ACT 118)    Step #3705.00 (2ms ~= 500.00*RT, ~59500.00UPS, vehicles TOT 119 ACT 119)      Step #3706.00 (1ms ~= 1000.00*RT, ~119000.00UPS, vehicles TOT 119 ACT 119)    Step #3707.00 (2ms ~= 500.00*RT, ~61500.00UPS, vehicles TOT 123 ACT 123)      Step #3708.00 (2ms ~= 500.00*RT, ~62000.00UPS, vehicles TOT 124 ACT 124)      Step #3709.00Warning: Teleporting vehicle 'l6_h1_c3'; waited too long, lane='26721801#2_0', time=3709.00.
-Warning: Vehicle 'l6_h1_c3' ends teleporting on edge '-28959165#3', simulation time 3709.00.
- (2ms ~= 500.00*RT, ~62000.00UPS, vehicles TOT 124 ACT 124)      Step #3710.00Warning: Teleporting vehicle 'l5_h1_c5'; waited too long, lane='28965686_0', time=3710.00.
-Warning: Vehicle 'l5_h1_c5' ends teleporting on edge '-26988747#4', simulation time 3710.00.
- (1ms ~= 1000.00*RT, ~125000.00UPS, vehicles TOT 125 ACT 125)    Step #3711.00 (2ms ~= 500.00*RT, ~63000.00UPS, vehicles TOT 126 ACT 126)      Step #3712.00 (2ms ~= 500.00*RT, ~64000.00UPS, vehicles TOT 128 ACT 128)      Step #3713.00 (1ms ~= 1000.00*RT, ~129000.00UPS, vehicles TOT 129 ACT 129)    Step #3714.00 (1ms ~= 1000.00*RT, ~130000.00UPS, vehicles TOT 130 ACT 130)    Step #3715.00 (3ms ~= 333.33*RT, ~43666.67UPS, vehicles TOT 131 ACT 131)      Step #3716.00 (1ms ~= 1000.00*RT, ~132000.00UPS, vehicles TOT 132 ACT 132)    Step #3717.00 (2ms ~= 500.00*RT, ~67500.00UPS, vehicles TOT 135 ACT 135)      Step #3718.00 (2ms ~= 500.00*RT, ~68000.00UPS, vehicles TOT 136 ACT 136)      Step #3719.00 (1ms ~= 1000.00*RT, ~137000.00UPS, vehicles TOT 137 ACT 137)    Step #3720.00 (2ms ~= 500.00*RT, ~68500.00UPS, vehicles TOT 137 ACT 137)      Step #3721.00 (1ms ~= 1000.00*RT, ~138000.00UPS, vehicles TOT 138 ACT 138)    Step #3722.00 (2ms ~= 500.00*RT, ~70500.00UPS, vehicles TOT 141 ACT 141)      Step #3723.00Warning: Teleporting vehicle 'l6_h1_c4'; waited too long, lane='26721801#2_0', time=3723.00.
-Warning: Vehicle 'l6_h1_c4' ends teleporting on edge '-28959165#3', simulation time 3723.00.
- (1ms ~= 1000.00*RT, ~141000.00UPS, vehicles TOT 141 ACT 141)    Step #3724.00Warning: Teleporting vehicle 'l5_h1_c6'; waited too long, lane='28965686_0', time=3724.00.
-Warning: Vehicle 'l5_h1_c6' ends teleporting on edge '-26988747#4', simulation time 3724.00.
- (2ms ~= 500.00*RT, ~70500.00UPS, vehicles TOT 142 ACT 141)      Step #3725.00 (2ms ~= 500.00*RT, ~71000.00UPS, vehicles TOT 143 ACT 142)      Step #3726.00 (1ms ~= 1000.00*RT, ~143000.00UPS, vehicles TOT 144 ACT 143)    Step #3727.00 (2ms ~= 500.00*RT, ~72000.00UPS, vehicles TOT 145 ACT 144)      Step #3728.00 (1ms ~= 1000.00*RT, ~145000.00UPS, vehicles TOT 146 ACT 145)    Step #3729.00Warning: Teleporting vehicle 'l2_h1_c10'; waited too long, lane='49248915#0_1', time=3729.00.
-Warning: Vehicle 'l2_h1_c10' ends teleporting on edge '49248915#1', simulation time 3729.00.
- (2ms ~= 500.00*RT, ~74000.00UPS, vehicles TOT 149 ACT 148)      Step #3730.00Warning: Teleporting vehicle 'l2_h1_c5'; waited too long, lane='-48962497#2_0', time=3730.00.
-Warning: Vehicle 'l2_h1_c5' ends teleporting on edge '-48962497#1', simulation time 3730.00.
- (2ms ~= 500.00*RT, ~74500.00UPS, vehicles TOT 150 ACT 149)      Step #3731.00Warning: Teleporting vehicle 'l4_h1_c0'; waited too long, lane='-20862249#6_0', time=3731.00.
- (1ms ~= 1000.00*RT, ~148000.00UPS, vehicles TOT 150 ACT 148)    Step #3732.00 (2ms ~= 500.00*RT, ~74500.00UPS, vehicles TOT 151 ACT 149)      Step #3733.00 (2ms ~= 500.00*RT, ~75000.00UPS, vehicles TOT 152 ACT 150)      Step #3734.00 (1ms ~= 1000.00*RT, ~150000.00UPS, vehicles TOT 152 ACT 150)    Step #3735.00 (2ms ~= 500.00*RT, ~76000.00UPS, vehicles TOT 155 ACT 152)      Step #3736.00 (2ms ~= 500.00*RT, ~77500.00UPS, vehicles TOT 158 ACT 155)      Step #3737.00 (2ms ~= 500.00*RT, ~77500.00UPS, vehicles TOT 158 ACT 155)      Step #3738.00Warning: Teleporting vehicle 'l6_h1_c5'; waited too long, lane='26721801#2_0', time=3738.00.
-Warning: Teleporting vehicle 'l5_h1_c4'; waited too long, lane='-26988747#1_0', time=3738.00.
-Warning: Vehicle 'l6_h1_c5' ends teleporting on edge '-28959165#3', simulation time 3738.00.
-Warning: Vehicle 'l5_h1_c4' ends teleporting on edge '-26988747#0', simulation time 3738.00.
- (2ms ~= 500.00*RT, ~78000.00UPS, vehicles TOT 159 ACT 156)      Step #3739.00 (1ms ~= 1000.00*RT, ~157000.00UPS, vehicles TOT 160 ACT 157)    Step #3740.00 (2ms ~= 500.00*RT, ~78500.00UPS, vehicles TOT 160 ACT 157)      Step #3741.00 (2ms ~= 500.00*RT, ~79000.00UPS, vehicles TOT 161 ACT 158)      Step #3742.00Warning: Teleporting vehicle 'l6_h1_c3'; waited too long, lane='-28959165#3_0', time=3742.00.
-Warning: Vehicle 'l6_h1_c3' ends teleporting on edge '-28959165#2', simulation time 3742.00.
- (2ms ~= 500.00*RT, ~79000.00UPS, vehicles TOT 161 ACT 158)      Step #3743.00 (2ms ~= 500.00*RT, ~80500.00UPS, vehicles TOT 164 ACT 161)      Step #3744.00Warning: Teleporting vehicle 'l2_h1_c11'; waited too long, lane='49248915#0_1', time=3744.00.
-Warning: Teleporting vehicle 'l2_h1_c7'; waited too long, lane='-48962497#3_0', time=3744.00.
-Warning: Vehicle 'l2_h1_c11' ends teleporting on edge '49248915#1', simulation time 3744.00.
-Warning: Vehicle 'l2_h1_c7' ends teleporting on edge '-48962497#2', simulation time 3744.00.
- (2ms ~= 500.00*RT, ~82000.00UPS, vehicles TOT 167 ACT 164)      Step #3745.00Warning: Teleporting vehicle 'l2_h1_c5'; waited too long, lane='-48962497#1_0', time=3745.00.
-Warning: Vehicle 'l2_h1_c5' ends teleporting on edge '-48962497#0', simulation time 3745.00.
- (2ms ~= 500.00*RT, ~82000.00UPS, vehicles TOT 167 ACT 164)      Step #3746.00 (2ms ~= 500.00*RT, ~82500.00UPS, vehicles TOT 168 ACT 165)      Step #3747.00Warning: Teleporting vehicle 'l5_h1_c6'; waited too long, lane='-26988747#4_0', time=3747.00.
-Warning: Vehicle 'l5_h1_c6' ends teleporting on edge '-26988747#3', simulation time 3747.00.
- (2ms ~= 500.00*RT, ~83000.00UPS, vehicles TOT 169 ACT 166)      Step #3748.00Warning: Teleporting vehicle 'l2_h1_c9'; waited too long, lane='23595097#2_0', time=3748.00.
-Warning: Teleporting vehicle 'l6_h1_c0'; waited too long, lane='-28959165#1_0', time=3748.00.
-Warning: Vehicle 'l2_h1_c9' ends teleporting on edge '23595097#3', simulation time 3748.00.
-Warning: Vehicle 'l6_h1_c0' ends teleporting on edge '-28959165#0', simulation time 3748.00.
- (2ms ~= 500.00*RT, ~84000.00UPS, vehicles TOT 171 ACT 168)      Step #3749.00 (2ms ~= 500.00*RT, ~84500.00UPS, vehicles TOT 172 ACT 169)      Step #3750.00 (2ms ~= 500.00*RT, ~84500.00UPS, vehicles TOT 173 ACT 169)      Step #3751.00 (2ms ~= 500.00*RT, ~84500.00UPS, vehicles TOT 173 ACT 169)      Step #3752.00Warning: Teleporting vehicle 'l2_h1_c2'; waited too long, lane='23595097#5_1', time=3752.00.
-Warning: Teleporting vehicle 'l3_h1_c7'; collision, lane='30784485#2_1', time=3752.00.
-Warning: Vehicle 'l2_h1_c2' ends teleporting on edge '23595097#6', simulation time 3752.00.
-Warning: Vehicle 'l3_h1_c7' ends teleporting on edge '30784485#3', simulation time 3752.00.
- (2ms ~= 500.00*RT, ~85000.00UPS, vehicles TOT 174 ACT 170)      Step #3753.00Warning: Teleporting vehicle 'l4_h1_c7'; waited too long, lane='-24388108#5_1', time=3753.00.
-Warning: Vehicle 'l4_h1_c7' ends teleporting on edge '-24388108#4', simulation time 3753.00.
- (2ms ~= 500.00*RT, ~86000.00UPS, vehicles TOT 176 ACT 172)      Step #3754.00Warning: Teleporting vehicle 'l5_h1_c5'; waited too long, lane='-26988747#1_0', time=3754.00.
-Warning: Vehicle 'l5_h1_c5' ends teleporting on edge '-26988747#0', simulation time 3754.00.
- (2ms ~= 500.00*RT, ~87000.00UPS, vehicles TOT 178 ACT 174)      Step #3755.00 (2ms ~= 500.00*RT, ~87000.00UPS, vehicles TOT 178 ACT 174)      Step #3756.00Warning: Teleporting vehicle 'l5_h1_c1'; waited too long, lane='-28959165#3_0', time=3756.00.
-Warning: Vehicle 'l5_h1_c1' ends teleporting on edge '-28959165#2', simulation time 3756.00.
- (2ms ~= 500.00*RT, ~87000.00UPS, vehicles TOT 178 ACT 174)      Step #3757.00Warning: Teleporting vehicle 'l5_h1_c4'; waited too long, lane='-26988747#0_0', time=3757.00.
-Warning: Vehicle 'l5_h1_c4' ends teleporting on edge '-28959165#3', simulation time 3757.00.
- (2ms ~= 500.00*RT, ~87500.00UPS, vehicles TOT 180 ACT 175)      Step #3758.00Warning: Teleporting vehicle 'l2_h1_c7'; waited too long, lane='-48962497#2_0', time=3758.00.
- (3ms ~= 333.33*RT, ~59000.00UPS, vehicles TOT 183 ACT 177)      Step #3759.00Warning: Teleporting vehicle 'l2_h1_c12'; waited too long, lane='49248915#0_1', time=3759.00.
-Warning: Vehicle 'l2_h1_c12' ends teleporting on edge '49248915#1', simulation time 3759.00.
- (2ms ~= 500.00*RT, ~88500.00UPS, vehicles TOT 183 ACT 177)      Step #3760.00 (2ms ~= 500.00*RT, ~89000.00UPS, vehicles TOT 184 ACT 178)      Step #3761.00Warning: Teleporting vehicle 'l2_h1_c10'; waited too long, lane='23595097#0_1', time=3761.00.
-Warning: Vehicle 'l2_h1_c10' ends teleporting on edge '23595097#1', simulation time 3761.00.
- (2ms ~= 500.00*RT, ~90000.00UPS, vehicles TOT 186 ACT 180)      Step #3762.00Warning: Teleporting vehicle 'l4_h1_c6'; waited too long, lane='-24388108#5_0', time=3762.00.
-Warning: Vehicle 'l4_h1_c6' ends teleporting on edge '-24388108#4', simulation time 3762.00.
- (3ms ~= 333.33*RT, ~60333.33UPS, vehicles TOT 187 ACT 181)      Step #3763.00 (2ms ~= 500.00*RT, ~91000.00UPS, vehicles TOT 188 ACT 182)      Step #3764.00Warning: Teleporting vehicle 'l4_h1_c9'; waited too long, lane='-20862444#5_0', time=3764.00.
-Warning: Vehicle 'l4_h1_c9' ends teleporting on edge '-20862444#4', simulation time 3764.00.
- (2ms ~= 500.00*RT, ~91500.00UPS, vehicles TOT 189 ACT 183)      Step #3765.00 (2ms ~= 500.00*RT, ~92500.00UPS, vehicles TOT 191 ACT 185)      Step #3766.00Warning: Teleporting vehicle 'l2_h1_c0'; waited too long, lane='23595097#5_1', time=3766.00.
-Warning: Vehicle 'l2_h1_c0' ends teleporting on edge '23595097#6', simulation time 3766.00.
- (2ms ~= 500.00*RT, ~93000.00UPS, vehicles TOT 192 ACT 186)      Step #3767.00 (2ms ~= 500.00*RT, ~93000.00UPS, vehicles TOT 192 ACT 186)      Step #3768.00Warning: Teleporting vehicle 'l4_h1_c11'; waited too long, lane='-24388108#5_1', time=3768.00.
-Warning: Vehicle 'l4_h1_c11' ends teleporting on edge '-24388108#4', simulation time 3768.00.
- (3ms ~= 333.33*RT, ~62333.33UPS, vehicles TOT 193 ACT 187)      Step #3769.00 (2ms ~= 500.00*RT, ~94000.00UPS, vehicles TOT 194 ACT 188)      Step #3770.00Warning: Teleporting vehicle 'l4_h1_c14'; waited too long, lane='9646899#2_1', time=3770.00.
-Warning: Vehicle 'l4_h1_c14' ends teleporting on edge '9646899#3', simulation time 3770.00.
- (2ms ~= 500.00*RT, ~94000.00UPS, vehicles TOT 194 ACT 188)      Step #3771.00 (2ms ~= 500.00*RT, ~94500.00UPS, vehicles TOT 196 ACT 189)      Step #3772.00 (3ms ~= 333.33*RT, ~64333.33UPS, vehicles TOT 200 ACT 193)      Step #3773.00 (2ms ~= 500.00*RT, ~96500.00UPS, vehicles TOT 200 ACT 193)      Step #3774.00 (2ms ~= 500.00*RT, ~97000.00UPS, vehicles TOT 201 ACT 194)      Step #3775.00Warning: Teleporting vehicle 'l2_h1_c11'; waited too long, lane='23595097#0_0', time=3775.00.
-Warning: Vehicle 'l2_h1_c11' ends teleporting on edge '23595097#1', simulation time 3775.00.
- (2ms ~= 500.00*RT, ~97500.00UPS, vehicles TOT 202 ACT 195)      Step #3776.00 (3ms ~= 333.33*RT, ~65000.00UPS, vehicles TOT 202 ACT 195)      Step #3777.00Warning: Teleporting vehicle 'l5_h1_c13'; waited too long, lane='28965686_0', time=3777.00.
-Warning: Vehicle 'l5_h1_c13' ends teleporting on edge '-26988747#4', simulation time 3777.00.
- (2ms ~= 500.00*RT, ~98000.00UPS, vehicles TOT 203 ACT 196)      Step #3778.00 (2ms ~= 500.00*RT, ~98000.00UPS, vehicles TOT 203 ACT 196)      Step #3779.00 (3ms ~= 333.33*RT, ~66333.33UPS, vehicles TOT 206 ACT 199)      Step #3780.00Warning: Teleporting vehicle 'l5_h1_c5'; waited too long, lane='-26988747#0_0', time=3780.00.
-Warning: Vehicle 'l5_h1_c5' ends teleporting on edge '-28959165#3', simulation time 3780.00.
- (3ms ~= 333.33*RT, ~67333.33UPS, vehicles TOT 209 ACT 202)      Step #3781.00 (3ms ~= 333.33*RT, ~67333.33UPS, vehicles TOT 209 ACT 202)      Step #3782.00 (2ms ~= 500.00*RT, ~101500.00UPS, vehicles TOT 210 ACT 203)     Step #3783.00Warning: Teleporting vehicle 'l4_h1_c4'; waited too long, lane='25633229#1_0', time=3783.00.
-Warning: Vehicle 'l4_h1_c4' ends teleporting on edge '25633229#2', simulation time 3783.00.
- (3ms ~= 333.33*RT, ~68333.33UPS, vehicles TOT 212 ACT 205)      Step #3784.00Warning: Teleporting vehicle 'l4_h1_c16'; waited too long, lane='9646899#2_1', time=3784.00.
-Warning: Vehicle 'l4_h1_c16' ends teleporting on edge '9646899#3', simulation time 3784.00.
- (3ms ~= 333.33*RT, ~68666.67UPS, vehicles TOT 213 ACT 206)      Step #3785.00Warning: Teleporting vehicle 'l2_h1_c17'; waited too long, lane='49248919#0_0', time=3785.00.
-Warning: Teleporting vehicle 'l4_h1_c13'; waited too long, lane='-24388108#5_1', time=3785.00.
-Warning: Teleporting vehicle 'l6_h1_c15'; waited too long, lane='26721801#2_0', time=3785.00.
-Warning: Vehicle 'l2_h1_c17' ends teleporting on edge '49248919#1', simulation time 3785.00.
-Warning: Vehicle 'l4_h1_c13' ends teleporting on edge '-24388108#4', simulation time 3785.00.
-Warning: Vehicle 'l6_h1_c15' ends teleporting on edge '-28959165#3', simulation time 3785.00.
- (2ms ~= 500.00*RT, ~103000.00UPS, vehicles TOT 213 ACT 206)     Step #3786.00 (3ms ~= 333.33*RT, ~69333.33UPS, vehicles TOT 215 ACT 208)      Step #3787.00 (3ms ~= 333.33*RT, ~69333.33UPS, vehicles TOT 216 ACT 208)      Step #3788.00 (2ms ~= 500.00*RT, ~104000.00UPS, vehicles TOT 216 ACT 208)     Step #3789.00Warning: Teleporting vehicle 'l2_h1_t0'; waited too long, lane='9040840#0_1', time=3789.00.
-Warning: Vehicle 'l2_h1_t0' ends teleporting on edge '-24457260#1', simulation time 3789.00.
- (3ms ~= 333.33*RT, ~70666.67UPS, vehicles TOT 221 ACT 212)      Step #3790.00Warning: Teleporting vehicle 'l1_h1_c0'; waited too long, lane='24388108#4_0', time=3790.00.
-Warning: Teleporting vehicle 'l1_h1_c3'; waited too long, lane='-48962611#6_0', time=3790.00.
-Warning: Vehicle 'l1_h1_c0' ends teleporting on edge '24388108#5', simulation time 3790.00.
-Warning: Vehicle 'l1_h1_c3' ends teleporting on edge '-48962611#5', simulation time 3790.00.
- (2ms ~= 500.00*RT, ~106000.00UPS, vehicles TOT 221 ACT 212)     Step #3791.00Warning: Teleporting vehicle 'l5_h1_c14'; waited too long, lane='28965686_0', time=3791.00.
-Warning: Teleporting vehicle 'l4_h1_c29'; waited too long, lane='30784485#1_0', time=3791.00.
-Warning: Vehicle 'l5_h1_c14' ends teleporting on edge '-26988747#4', simulation time 3791.00.
-Warning: Vehicle 'l4_h1_c29' ends teleporting on edge '30784485#2', simulation time 3791.00.
- (2ms ~= 500.00*RT, ~106000.00UPS, vehicles TOT 221 ACT 212)     Step #3792.00 (3ms ~= 333.33*RT, ~71000.00UPS, vehicles TOT 222 ACT 213)      Step #3793.00 (2ms ~= 500.00*RT, ~107000.00UPS, vehicles TOT 223 ACT 214)     Step #3794.00Warning: Teleporting vehicle 'l4_h1_c9'; waited too long, lane='-20862444#0_0', time=3794.00.
- (2ms ~= 500.00*RT, ~107500.00UPS, vehicles TOT 225 ACT 215)     Step #3795.00 (3ms ~= 333.33*RT, ~72000.00UPS, vehicles TOT 226 ACT 216)      Step #3796.00 (2ms ~= 500.00*RT, ~108000.00UPS, vehicles TOT 226 ACT 216)     Step #3797.00 (2ms ~= 500.00*RT, ~108500.00UPS, vehicles TOT 227 ACT 217)     Step #3798.00Warning: Teleporting vehicle 'l3_h1_c0'; waited too long, lane='9646899#2_0', time=3798.00.
-Warning: Vehicle 'l3_h1_c0' ends teleporting on edge '9646899#3', simulation time 3798.00.
- (3ms ~= 333.33*RT, ~72666.67UPS, vehicles TOT 229 ACT 218)      Step #3799.00Warning: Teleporting vehicle 'l2_h1_c18'; waited too long, lane='49248919#0_0', time=3799.00.
-Warning: Teleporting vehicle 'l3_h1_c1'; waited too long, lane='9646899#2_1', time=3799.00.
-Warning: Vehicle 'l2_h1_c18' ends teleporting on edge '49248919#1', simulation time 3799.00.
-Warning: Vehicle 'l3_h1_c1' ends teleporting on edge '9646899#3', simulation time 3799.00.
- (3ms ~= 333.33*RT, ~72666.67UPS, vehicles TOT 229 ACT 218)      Step #3800.00Warning: Teleporting vehicle 'l6_h1_c16'; waited too long, lane='26721801#2_0', time=3800.00.
-Warning: Vehicle 'l6_h1_c16' ends teleporting on edge '-28959165#3', simulation time 3800.00.
- (2ms ~= 500.00*RT, ~109500.00UPS, vehicles TOT 230 ACT 219)     Step #3801.00 (3ms ~= 333.33*RT, ~74000.00UPS, vehicles TOT 234 ACT 222)      Step #3802.00 (2ms ~= 500.00*RT, ~111000.00UPS, vehicles TOT 234 ACT 222)     Step #3803.00 (2ms ~= 500.00*RT, ~111000.00UPS, vehicles TOT 234 ACT 222)     Step #3804.00 (2ms ~= 500.00*RT, ~112000.00UPS, vehicles TOT 236 ACT 224)     Step #3805.00 (3ms ~= 333.33*RT, ~74666.67UPS, vehicles TOT 236 ACT 224)      Step #3806.00 (2ms ~= 500.00*RT, ~112000.00UPS, vehicles TOT 236 ACT 224)     Step #3807.00Warning: Teleporting vehicle 'l4_h1_c30'; waited too long, lane='30784485#1_0', time=3807.00.
-Warning: Teleporting vehicle 'l5_h1_c12'; waited too long, lane='-26988747#1_0', time=3807.00.
-Warning: Vehicle 'l4_h1_c30' ends teleporting on edge '30784485#2', simulation time 3807.00.
-Warning: Vehicle 'l5_h1_c12' ends teleporting on edge '-26988747#0', simulation time 3807.00.
- (2ms ~= 500.00*RT, ~113500.00UPS, vehicles TOT 239 ACT 227)     Step #3808.00 (3ms ~= 333.33*RT, ~76000.00UPS, vehicles TOT 241 ACT 228)      Step #3809.00Warning: Teleporting vehicle 'l2_h1_c22'; waited too long, lane='49248915#0_1', time=3809.00.
-Warning: Vehicle 'l2_h1_c22' ends teleporting on edge '49248915#1', simulation time 3809.00.
- (2ms ~= 500.00*RT, ~114000.00UPS, vehicles TOT 242 ACT 228)     Step #3810.00 (2ms ~= 500.00*RT, ~114000.00UPS, vehicles TOT 242 ACT 228)     Step #3811.00Warning: Teleporting vehicle 'l1_h1_c3'; waited too long, lane='-48962611#5_0', time=3811.00.
-Warning: Vehicle 'l1_h1_c3' ends teleporting on edge '-48962611#4', simulation time 3811.00.
- (3ms ~= 333.33*RT, ~76000.00UPS, vehicles TOT 243 ACT 228)      Step #3812.00 (2ms ~= 500.00*RT, ~114500.00UPS, vehicles TOT 244 ACT 229)     Step #3813.00Warning: Teleporting vehicle 'l4_h1_c20'; waited too long, lane='9646899#2_0', time=3813.00.
-Warning: Teleporting vehicle 'l2_h1_t3'; waited too long, lane='49248915#0_0', time=3813.00.
-Warning: Vehicle 'l4_h1_c20' ends teleporting on edge '9646899#3', simulation time 3813.00.
-Warning: Vehicle 'l2_h1_t3' ends teleporting on edge '49248915#1', simulation time 3813.00.
- (3ms ~= 333.33*RT, ~76000.00UPS, vehicles TOT 244 ACT 228)      Step #3814.00Warning: Teleporting vehicle 'l4_h1_c18'; waited too long, lane='9646899#2_1', time=3814.00.
-Warning: Vehicle 'l4_h1_c18' ends teleporting on edge '9646899#3', simulation time 3814.00.
- (2ms ~= 500.00*RT, ~114500.00UPS, vehicles TOT 245 ACT 229)     Step #3815.00Warning: Teleporting vehicle 'l6_h1_c17'; waited too long, lane='26721801#2_0', time=3815.00.
-Warning: Teleporting vehicle 'l6_h1_t1'; waited too long, lane='-28959165#3_0', time=3815.00.
-Warning: Vehicle 'l6_h1_c17' ends teleporting on edge '-28959165#3', simulation time 3815.00.
-Warning: Vehicle 'l6_h1_t1' ends teleporting on edge '-28959165#2', simulation time 3815.00.
- (4ms ~= 250.00*RT, ~57750.00UPS, vehicles TOT 248 ACT 231)      Step #3816.00 (3ms ~= 333.33*RT, ~77666.67UPS, vehicles TOT 250 ACT 233)      Step #3817.00 (3ms ~= 333.33*RT, ~77666.67UPS, vehicles TOT 250 ACT 233)      Step #3818.00Warning: Teleporting vehicle 'l5_h1_c1'; waited too long, lane='-28959165#1_0', time=3818.00.
-Warning: Vehicle 'l5_h1_c1' ends teleporting on edge '-28959165#0', simulation time 3818.00.
- (4ms ~= 250.00*RT, ~58750.00UPS, vehicles TOT 252 ACT 235)      Step #3819.00Warning: Teleporting vehicle 'l2_h1_c12'; waited too long, lane='23595097#2_0', time=3819.00.
-Warning: Vehicle 'l2_h1_c12' ends teleporting on edge '23595097#3', simulation time 3819.00.
- (2ms ~= 500.00*RT, ~118000.00UPS, vehicles TOT 253 ACT 236)     Step #3820.00 (3ms ~= 333.33*RT, ~78666.67UPS, vehicles TOT 253 ACT 236)      Step #3821.00 (2ms ~= 500.00*RT, ~118500.00UPS, vehicles TOT 254 ACT 237)     Step #3822.00Warning: Teleporting vehicle 'l5_h1_c13'; waited too long, lane='-26988747#1_0', time=3822.00.
-Warning: Teleporting vehicle 'l4_h1_c23'; waited too long, lane='20862083#1_0', time=3822.00.
-Warning: Vehicle 'l5_h1_c13' ends teleporting on edge '-26988747#0', simulation time 3822.00.
-Warning: Vehicle 'l4_h1_c23' ends teleporting on edge '20862181#0', simulation time 3822.00.
- (3ms ~= 333.33*RT, ~79333.33UPS, vehicles TOT 255 ACT 238)      Step #3823.00 (2ms ~= 500.00*RT, ~119500.00UPS, vehicles TOT 257 ACT 239)     Step #3824.00Warning: Teleporting vehicle 'l2_h1_c21'; waited too long, lane='49248915#0_1', time=3824.00.
-Warning: Vehicle 'l2_h1_c21' ends teleporting on edge '49248915#1', simulation time 3824.00.
- (3ms ~= 333.33*RT, ~80000.00UPS, vehicles TOT 258 ACT 240)      Step #3825.00Warning: Teleporting vehicle 'l2_h1_c14'; waited too long, lane='23595097#2_1', time=3825.00.
-Warning: Vehicle 'l2_h1_c14' ends teleporting on edge '23595097#3', simulation time 3825.00.
- (3ms ~= 333.33*RT, ~81000.00UPS, vehicles TOT 261 ACT 243)      Step #3826.00 (3ms ~= 333.33*RT, ~81333.33UPS, vehicles TOT 262 ACT 244)      Step #3827.00Warning: Teleporting vehicle 'l1_h1_c3'; waited too long, lane='-48962611#4_0', time=3827.00.
-Warning: Vehicle 'l1_h1_c3' ends teleporting on edge '-48962611#3', simulation time 3827.00.
- (2ms ~= 500.00*RT, ~121500.00UPS, vehicles TOT 262 ACT 243)     Step #3828.00 (3ms ~= 333.33*RT, ~81333.33UPS, vehicles TOT 263 ACT 244)      Step #3829.00Warning: Teleporting vehicle 'l1_h1_c1'; waited too long, lane='9646899#8_0', time=3829.00.
- (3ms ~= 333.33*RT, ~81333.33UPS, vehicles TOT 264 ACT 244)      Step #3830.00 (3ms ~= 333.33*RT, ~82666.67UPS, vehicles TOT 268 ACT 248)      Step #3831.00Warning: Teleporting vehicle 'l2_h1_c11'; waited too long, lane='23595097#5_1', time=3831.00.
-Warning: Teleporting vehicle 'l2_h1_t2'; waited too long, lane='23595097#0_0', time=3831.00.
-Warning: Vehicle 'l2_h1_c11' ends teleporting on edge '23595097#6', simulation time 3831.00.
-Warning: Vehicle 'l2_h1_t2' ends teleporting on edge '23595097#1', simulation time 3831.00.
- (2ms ~= 500.00*RT, ~124000.00UPS, vehicles TOT 268 ACT 248)     Step #3832.00Warning: Teleporting vehicle 'l6_h1_t2'; waited too long, lane='26721801#2_0', time=3832.00.
-Warning: Vehicle 'l6_h1_t2' ends teleporting on edge '-28959165#3', simulation time 3832.00.
- (3ms ~= 333.33*RT, ~82333.33UPS, vehicles TOT 269 ACT 247)      Step #3833.00Warning: Teleporting vehicle 'l5_h1_c2'; waited too long, lane='-28959165#1_0', time=3833.00.
-Warning: Vehicle 'l5_h1_c2' ends teleporting on edge '-28959165#0', simulation time 3833.00.
- (3ms ~= 333.33*RT, ~82666.67UPS, vehicles TOT 270 ACT 248)      Step #3834.00Warning: Teleporting vehicle 'l2_h1_t1'; waited too long, lane='23595097#2_0', time=3834.00.
-Warning: Teleporting vehicle 'l6_h1_c14'; waited too long, lane='-28959165#3_0', time=3834.00.
-Warning: Vehicle 'l2_h1_t1' ends teleporting on edge '23595097#3', simulation time 3834.00.
-Warning: Vehicle 'l6_h1_c14' ends teleporting on edge '-28959165#2', simulation time 3834.00.
- (2ms ~= 500.00*RT, ~124500.00UPS, vehicles TOT 271 ACT 249)     Step #3835.00Warning: Teleporting vehicle 'l5_h1_c15'; waited too long, lane='-26988747#4_0', time=3835.00.
-Warning: Vehicle 'l5_h1_c15' ends teleporting on edge '-26988747#3', simulation time 3835.00.
- (3ms ~= 333.33*RT, ~83000.00UPS, vehicles TOT 272 ACT 249)      Step #3836.00 (2ms ~= 500.00*RT, ~125500.00UPS, vehicles TOT 274 ACT 251)     Step #3837.00Warning: Teleporting vehicle 'l5_h1_c14'; waited too long, lane='-26988747#1_0', time=3837.00.
-Warning: Vehicle 'l5_h1_c14' ends teleporting on edge '-26988747#0', simulation time 3837.00.
- (4ms ~= 250.00*RT, ~62750.00UPS, vehicles TOT 275 ACT 251)      Step #3838.00 (2ms ~= 500.00*RT, ~126000.00UPS, vehicles TOT 276 ACT 252)     Step #3839.00Warning: Teleporting vehicle 'l2_h1_c23'; waited too long, lane='49248915#0_1', time=3839.00.
-Warning: Vehicle 'l2_h1_c23' ends teleporting on edge '49248915#1', simulation time 3839.00.
- (3ms ~= 333.33*RT, ~84000.00UPS, vehicles TOT 276 ACT 252)      Step #3840.00Warning: Teleporting vehicle 'l4_h1_c2'; waited too long, lane='9646899#11_1', time=3840.00.
-Warning: Teleporting vehicle 'l4_h1_c1'; waited too long, lane='9646899#11_0', time=3840.00.
-Warning: Teleporting vehicle 'l2_h1_c13'; waited too long, lane='23595097#2_1', time=3840.00.
-Warning: Teleporting vehicle 'l5_h1_c13'; waited too long, lane='-26988747#0_0', time=3840.00.
-Warning: Vehicle 'l4_h1_c2' ends teleporting on edge '9646899#12', simulation time 3840.00.
-Warning: Vehicle 'l4_h1_c1' ends teleporting on edge '9646899#12', simulation time 3840.00.
-Warning: Vehicle 'l5_h1_c13' ends teleporting on edge '-28959165#3', simulation time 3840.00.
- (3ms ~= 333.33*RT, ~84333.33UPS, vehicles TOT 278 ACT 253)      Step #3841.00Warning: Vehicle 'l2_h1_c13' ends teleporting on edge '23595097#3', simulation time 3841.00.
- (3ms ~= 333.33*RT, ~84666.67UPS, vehicles TOT 279 ACT 254)      Step #3842.00Warning: Teleporting vehicle 'l2_h1_c22'; waited too long, lane='23595097#0_1', time=3842.00.
-Warning: Vehicle 'l2_h1_c22' ends teleporting on edge '23595097#1', simulation time 3842.00.
- (3ms ~= 333.33*RT, ~84666.67UPS, vehicles TOT 279 ACT 254)      Step #3843.00 (3ms ~= 333.33*RT, ~85333.33UPS, vehicles TOT 281 ACT 256)      Step #3844.00Warning: Teleporting vehicle 'l4_h1_c14'; waited too long, lane='9646899#8_0', time=3844.00.
-Warning: Vehicle 'l4_h1_c14' ends teleporting on edge '9646899#9', simulation time 3844.00.
- (3ms ~= 333.33*RT, ~86666.67UPS, vehicles TOT 285 ACT 260)      Step #3845.00 (3ms ~= 333.33*RT, ~86666.67UPS, vehicles TOT 285 ACT 260)      Step #3846.00Warning: Teleporting vehicle 'l4_h1_c4'; waited too long, lane='25633229#4_1', time=3846.00.
-Warning: Vehicle 'l4_h1_c4' ends teleporting on edge '25633229#5', simulation time 3846.00.
- (3ms ~= 333.33*RT, ~86333.33UPS, vehicles TOT 285 ACT 259)      Step #3847.00 (3ms ~= 333.33*RT, ~86666.67UPS, vehicles TOT 287 ACT 260)      Step #3848.00 (4ms ~= 250.00*RT, ~64750.00UPS, vehicles TOT 287 ACT 259)      Step #3849.00Warning: Teleporting vehicle 'l6_h1_c18'; waited too long, lane='26721801#2_0', time=3849.00.
-Warning: Vehicle 'l6_h1_c18' ends teleporting on edge '-28959165#3', simulation time 3849.00.
- (2ms ~= 500.00*RT, ~130000.00UPS, vehicles TOT 288 ACT 260)     Step #3850.00Warning: Teleporting vehicle 'l1_h1_c7'; waited too long, lane='-48962611#6_0', time=3850.00.
-Warning: Vehicle 'l1_h1_c7' ends teleporting on edge '-48962611#5', simulation time 3850.00.
- (4ms ~= 250.00*RT, ~65000.00UPS, vehicles TOT 289 ACT 260)      Step #3851.00Warning: Teleporting vehicle 'l4_h1_c26'; waited too long, lane='-24388108#5_1', time=3851.00.
-Warning: Vehicle 'l4_h1_c26' ends teleporting on edge '-24388108#4', simulation time 3851.00.
- (4ms ~= 250.00*RT, ~65000.00UPS, vehicles TOT 291 ACT 260)      Step #3852.00 (3ms ~= 333.33*RT, ~87333.33UPS, vehicles TOT 293 ACT 262)      Step #3853.00 (3ms ~= 333.33*RT, ~87333.33UPS, vehicles TOT 293 ACT 262)      Step #3854.00 (3ms ~= 333.33*RT, ~87666.67UPS, vehicles TOT 294 ACT 263)      Step #3855.00 (3ms ~= 333.33*RT, ~88000.00UPS, vehicles TOT 295 ACT 264)      Step #3856.00Warning: Teleporting vehicle 'l2_h1_c21'; waited too long, lane='23595097#0_0', time=3856.00.
-Warning: Vehicle 'l2_h1_c21' ends teleporting on edge '23595097#1', simulation time 3856.00.
- (4ms ~= 250.00*RT, ~66250.00UPS, vehicles TOT 296 ACT 265)      Step #3857.00Warning: Teleporting vehicle 'l4_h1_c27'; waited too long, lane='-20862444#5_0', time=3857.00.
-Warning: Vehicle 'l4_h1_c27' ends teleporting on edge '-20862444#4', simulation time 3857.00.
- (3ms ~= 333.33*RT, ~89000.00UPS, vehicles TOT 298 ACT 267)      Step #3858.00Warning: Teleporting vehicle 'l5_h1_c22'; waited too long, lane='28965686_0', time=3858.00.
-Warning: Vehicle 'l5_h1_c22' ends teleporting on edge '-26988747#4', simulation time 3858.00.
- (4ms ~= 250.00*RT, ~66750.00UPS, vehicles TOT 299 ACT 267)      Step #3859.00 (3ms ~= 333.33*RT, ~89333.33UPS, vehicles TOT 300 ACT 268)      Step #3860.00 (3ms ~= 333.33*RT, ~89333.33UPS, vehicles TOT 300 ACT 268)      Step #3861.00 (4ms ~= 250.00*RT, ~68000.00UPS, vehicles TOT 304 ACT 272)      Step #3862.00 (3ms ~= 333.33*RT, ~91000.00UPS, vehicles TOT 305 ACT 273)      Step #3863.00Warning: Teleporting vehicle 'l5_h1_c14'; waited too long, lane='-26988747#0_0', time=3863.00.
-Warning: Vehicle 'l5_h1_c14' ends teleporting on edge '-28959165#3', simulation time 3863.00.
- (3ms ~= 333.33*RT, ~91000.00UPS, vehicles TOT 305 ACT 273)      Step #3864.00 (3ms ~= 333.33*RT, ~91333.33UPS, vehicles TOT 306 ACT 274)      Step #3865.00Warning: Teleporting vehicle 'l3_h1_c2'; waited too long, lane='25633229#1_0', time=3865.00.
- (3ms ~= 333.33*RT, ~91333.33UPS, vehicles TOT 307 ACT 274)      Step #3866.00 (3ms ~= 333.33*RT, ~92333.33UPS, vehicles TOT 310 ACT 277)      Step #3867.00 (3ms ~= 333.33*RT, ~92333.33UPS, vehicles TOT 310 ACT 277)      Step #3868.00 (3ms ~= 333.33*RT, ~92666.67UPS, vehicles TOT 311 ACT 278)      Step #3869.00Warning: Teleporting vehicle 'l2_h1_c22'; waited too long, lane='-48962497#3_0', time=3869.00.
-Warning: Vehicle 'l2_h1_c22' ends teleporting on edge '-48962497#2', simulation time 3869.00.
- (3ms ~= 333.33*RT, ~93000.00UPS, vehicles TOT 312 ACT 279)      Step #3870.00 (4ms ~= 250.00*RT, ~70250.00UPS, vehicles TOT 314 ACT 281)      Step #3871.00Warning: Teleporting vehicle 'l2_h1_c16'; waited too long, lane='9040840#0_1', time=3871.00.
- (3ms ~= 333.33*RT, ~93333.33UPS, vehicles TOT 314 ACT 280)      Step #3872.00Warning: Teleporting vehicle 'l2_h1_c27'; waited too long, lane='49248919#0_0', time=3872.00.
-Warning: Teleporting vehicle 'l3_h1_c3'; waited too long, lane='25633229#1_1', time=3872.00.
-Warning: Teleporting vehicle 'l4_h1_c29'; waited too long, lane='9646899#2_1', time=3872.00.
-Warning: Teleporting vehicle 'l5_h1_c23'; waited too long, lane='28965686_0', time=3872.00.
-Warning: Vehicle 'l2_h1_c27' ends teleporting on edge '49248919#1', simulation time 3872.00.
-Warning: Vehicle 'l3_h1_c3' ends teleporting on edge '25633229#2', simulation time 3872.00.
-Warning: Vehicle 'l4_h1_c29' ends teleporting on edge '-20862444#5', simulation time 3872.00.
-Warning: Vehicle 'l5_h1_c23' ends teleporting on edge '-26988747#4', simulation time 3872.00.
- (4ms ~= 250.00*RT, ~70500.00UPS, vehicles TOT 316 ACT 282)      Step #3873.00 (3ms ~= 333.33*RT, ~94666.67UPS, vehicles TOT 318 ACT 284)      Step #3874.00Warning: Teleporting vehicle 'l3_h1_c22'; waited too long, lane='-24388108#5_0', time=3874.00.
-Warning: Vehicle 'l3_h1_c22' ends teleporting on edge '-24388108#4', simulation time 3874.00.
- (3ms ~= 333.33*RT, ~94666.67UPS, vehicles TOT 318 ACT 284)      Step #3875.00 (3ms ~= 333.33*RT, ~95333.33UPS, vehicles TOT 320 ACT 286)      Step #3876.00 (3ms ~= 333.33*RT, ~95333.33UPS, vehicles TOT 321 ACT 286)      Step #3877.00 (3ms ~= 333.33*RT, ~95333.33UPS, vehicles TOT 321 ACT 286)      Step #3878.00Warning: Teleporting vehicle 'l6_h1_c0'; waited too long, lane='-12824415#1_0', time=3878.00.
-Warning: Teleporting vehicle 'l5_h1_c15'; waited too long, lane='-26988747#0_0', time=3878.00.
-Warning: Vehicle 'l6_h1_c0' ends teleporting on edge '25633229#5', simulation time 3878.00.
-Warning: Vehicle 'l5_h1_c15' ends teleporting on edge '-28959165#3', simulation time 3878.00.
- (3ms ~= 333.33*RT, ~95666.67UPS, vehicles TOT 322 ACT 287)      Step #3879.00Warning: Teleporting vehicle 'l3_h1_c26'; waited too long, lane='-24388108#5_1', time=3879.00.
-Warning: Vehicle 'l3_h1_c26' ends teleporting on edge '-24388108#4', simulation time 3879.00.
- (3ms ~= 333.33*RT, ~96333.33UPS, vehicles TOT 324 ACT 289)      Step #3880.00 (3ms ~= 333.33*RT, ~97333.33UPS, vehicles TOT 327 ACT 292)      Step #3881.00 (3ms ~= 333.33*RT, ~97333.33UPS, vehicles TOT 327 ACT 292)      Step #3882.00 (3ms ~= 333.33*RT, ~97000.00UPS, vehicles TOT 328 ACT 291)      Step #3883.00Warning: Teleporting vehicle 'l2_h1_c2'; waited too long, lane='48962306#0_1', time=3883.00.
-Warning: Teleporting vehicle 'l2_h1_c0'; waited too long, lane='48962306#0_0', time=3883.00.
-Warning: Teleporting vehicle 'l2_h1_c22'; waited too long, lane='-48962497#2_0', time=3883.00.
-Warning: Vehicle 'l2_h1_c2' ends teleporting on edge '48962306#1', simulation time 3883.00.
- (3ms ~= 333.33*RT, ~97000.00UPS, vehicles TOT 329 ACT 291)      Step #3884.00 (4ms ~= 250.00*RT, ~72500.00UPS, vehicles TOT 329 ACT 290)      Step #3885.00Warning: Teleporting vehicle 'l5_h1_c20'; waited too long, lane='-26988747#1_0', time=3885.00.
-Warning: Vehicle 'l5_h1_c20' ends teleporting on edge '-26988747#0', simulation time 3885.00.
- (2ms ~= 500.00*RT, ~145000.00UPS, vehicles TOT 329 ACT 290)     Step #3886.00Warning: Teleporting vehicle 'l3_h1_c20'; waited too long, lane='-20862444#4_0', time=3886.00.
-Warning: Vehicle 'l3_h1_c20' ends teleporting on edge '-20862444#3', simulation time 3886.00.
- (3ms ~= 333.33*RT, ~97333.33UPS, vehicles TOT 331 ACT 292)      Step #3887.00 (3ms ~= 333.33*RT, ~97666.67UPS, vehicles TOT 333 ACT 293)      Step #3888.00Warning: Teleporting vehicle 'l3_h1_c18'; waited too long, lane='9646899#2_1', time=3888.00.
-Warning: Teleporting vehicle 'l3_h1_c15'; waited too long, lane='-20862249#6_0', time=3888.00.
-Warning: Vehicle 'l3_h1_c18' ends teleporting on edge '9646899#3', simulation time 3888.00.
- (4ms ~= 250.00*RT, ~73500.00UPS, vehicles TOT 336 ACT 294)      Step #3889.00Warning: Teleporting vehicle 'l3_h1_c23'; waited too long, lane='-24388108#5_0', time=3889.00.
-Warning: Vehicle 'l3_h1_c23' ends teleporting on edge '-24388108#4', simulation time 3889.00.
- (4ms ~= 250.00*RT, ~73500.00UPS, vehicles TOT 336 ACT 294)      Step #3890.00Warning: Teleporting vehicle 'l2_h1_c33'; waited too long, lane='49248915#0_1', time=3890.00.
-Warning: Vehicle 'l2_h1_c33' ends teleporting on edge '49248915#1', simulation time 3890.00.
- (3ms ~= 333.33*RT, ~98333.33UPS, vehicles TOT 337 ACT 295)      Step #3891.00 (4ms ~= 250.00*RT, ~74000.00UPS, vehicles TOT 338 ACT 296)      Step #3892.00 (3ms ~= 333.33*RT, ~99333.33UPS, vehicles TOT 340 ACT 298)      Step #3893.00Warning: Teleporting vehicle 'l4_h1_c1'; waited too long, lane='9646899#14_1', time=3893.00.
-Warning: Teleporting vehicle 'l4_h1_c2'; waited too long, lane='9646899#14_0', time=3893.00.
-Warning: Vehicle 'l4_h1_c1' ends teleporting on edge '9646899#15', simulation time 3893.00.
-Warning: Vehicle 'l4_h1_c2' ends teleporting on edge '-48962497#2', simulation time 3893.00.
- (4ms ~= 250.00*RT, ~74750.00UPS, vehicles TOT 341 ACT 299)      Step #3894.00Warning: Teleporting vehicle 'l3_h1_c27'; waited too long, lane='-24388108#5_1', time=3894.00.
-Warning: Teleporting vehicle 'l5_h1_c16'; waited too long, lane='-26988747#0_0', time=3894.00.
-Warning: Vehicle 'l3_h1_c27' ends teleporting on edge '-24388108#4', simulation time 3894.00.
-Warning: Vehicle 'l5_h1_c16' ends teleporting on edge '-28959165#3', simulation time 3894.00.
- (3ms ~= 333.33*RT, ~100000.00UPS, vehicles TOT 342 ACT 300)     Step #3895.00Warning: Teleporting vehicle 'l6_h1_c20'; waited too long, lane='-28959165#3_0', time=3895.00.
-Warning: Vehicle 'l6_h1_c20' ends teleporting on edge '-28959165#2', simulation time 3895.00.
- (4ms ~= 250.00*RT, ~74750.00UPS, vehicles TOT 342 ACT 299)      Step #3896.00Warning: Teleporting vehicle 'l4_h1_c19'; waited too long, lane='9646899#8_0', time=3896.00.
-Warning: Vehicle 'l4_h1_c19' ends teleporting on edge '9646899#9', simulation time 3896.00.
- (4ms ~= 250.00*RT, ~75000.00UPS, vehicles TOT 343 ACT 300)      Step #3897.00Warning: Teleporting vehicle 'l4_h1_c4'; waited too long, lane='25633229#6_1', time=3897.00.
-Warning: Teleporting vehicle 'l6_h1_c14'; waited too long, lane='-28959165#1_0', time=3897.00.
-Warning: Vehicle 'l4_h1_c4' ends teleporting on edge '25633229#7', simulation time 3897.00.
-Warning: Vehicle 'l6_h1_c14' ends teleporting on edge '-28959165#0', simulation time 3897.00.
- (5ms ~= 200.00*RT, ~60600.00UPS, vehicles TOT 346 ACT 303)      Step #3898.00Warning: Teleporting vehicle 'l4_h1_c22'; waited too long, lane='9646899#8_1', time=3898.00.
-Warning: Teleporting vehicle 'l2_h1_c4'; waited too long, lane='48962306#0_0', time=3898.00.
-Warning: Teleporting vehicle 'l6_h1_c28'; waited too long, lane='26721801#2_0', time=3898.00.
-Warning: Vehicle 'l4_h1_c22' ends teleporting on edge '9646899#9', simulation time 3898.00.
-Warning: Vehicle 'l6_h1_c28' ends teleporting on edge '-28959165#3', simulation time 3898.00.
- (4ms ~= 250.00*RT, ~76000.00UPS, vehicles TOT 347 ACT 304)      Step #3899.00 (4ms ~= 250.00*RT, ~76250.00UPS, vehicles TOT 348 ACT 305)      Step #3900.00Warning: Teleporting vehicle 'l5_h1_c21'; waited too long, lane='-26988747#1_0', time=3900.00.
-Warning: Teleporting vehicle 'l2_h1_c3'; waited too long, lane='41339976#2_0', time=3900.00.
-Warning: Vehicle 'l5_h1_c21' ends teleporting on edge '-26988747#0', simulation time 3900.00.
-Warning: Vehicle 'l2_h1_c3' ends teleporting on edge '-48962611#5', simulation time 3900.00.
- (4ms ~= 250.00*RT, ~76250.00UPS, vehicles TOT 349 ACT 305)      Step #3901.00Warning: Teleporting vehicle 'l4_h1_c29'; waited too long, lane='-20862444#4_0', time=3901.00.
-Warning: Vehicle 'l2_h1_c0' ends teleporting on edge '-20862444#4', simulation time 3901.00.
- (3ms ~= 333.33*RT, ~102000.00UPS, vehicles TOT 350 ACT 306)     Step #3902.00Warning: Teleporting vehicle 'l2_h1_c15'; waited too long, lane='23595097#5_1', time=3902.00.
-Warning: Vehicle 'l2_h1_c15' ends teleporting on edge '23595097#6', simulation time 3902.00.
- (4ms ~= 250.00*RT, ~77250.00UPS, vehicles TOT 353 ACT 309)      Step #3903.00Warning: Teleporting vehicle 'l2_h1_t3'; waited too long, lane='9040840#0_1', time=3903.00.
-Warning: Teleporting vehicle 'l3_h1_c21'; waited too long, lane='9646899#2_1', time=3903.00.
-Warning: Vehicle 'l2_h1_t3' ends teleporting on edge '-24457260#1', simulation time 3903.00.
-Warning: Vehicle 'l3_h1_c21' ends teleporting on edge '9646899#3', simulation time 3903.00.
- (4ms ~= 250.00*RT, ~77250.00UPS, vehicles TOT 353 ACT 309)      Step #3904.00Warning: Teleporting vehicle 'l2_h1_c24'; waited too long, lane='23595097#2_0', time=3904.00.
-Warning: Vehicle 'l2_h1_c24' ends teleporting on edge '23595097#3', simulation time 3904.00.
- (4ms ~= 250.00*RT, ~77750.00UPS, vehicles TOT 355 ACT 311)      Step #3905.00Warning: Teleporting vehicle 'l3_h1_c29'; waited too long, lane='9646899#2_0', time=3905.00.
-Warning: Vehicle 'l3_h1_c29' ends teleporting on edge '9646899#3', simulation time 3905.00.
- (3ms ~= 333.33*RT, ~103666.67UPS, vehicles TOT 355 ACT 311)     Step #3906.00Warning: Teleporting vehicle 'l2_h1_t5'; waited too long, lane='49248915#0_1', time=3906.00.
-Warning: Vehicle 'l2_h1_t5' ends teleporting on edge '49248915#1', simulation time 3906.00.
- (3ms ~= 333.33*RT, ~104000.00UPS, vehicles TOT 356 ACT 312)     Step #3907.00Warning: Teleporting vehicle 'l2_h1_c23'; waited too long, lane='23595097#2_1', time=3907.00.
-Warning: Teleporting vehicle 'l4_h1_c10'; waited too long, lane='9646899#14_1', time=3907.00.
-Warning: Teleporting vehicle 'l4_h1_c3'; waited too long, lane='9646899#14_0', time=3907.00.
-Warning: Vehicle 'l2_h1_c4' ends teleporting on edge '-20862444#4', simulation time 3907.00.
-Warning: Vehicle 'l2_h1_c23' ends teleporting on edge '23595097#3', simulation time 3907.00.
-Warning: Vehicle 'l4_h1_c10' ends teleporting on edge '9646899#15', simulation time 3907.00.
-Warning: Vehicle 'l4_h1_c3' ends teleporting on edge '-48962497#2', simulation time 3907.00.
- (4ms ~= 250.00*RT, ~78250.00UPS, vehicles TOT 357 ACT 313)      Step #3908.00Warning: Teleporting vehicle 'l3_h1_c20'; waited too long, lane='-20862444#1_0', time=3908.00.
-Warning: Teleporting vehicle 'l4_h1_c2'; waited too long, lane='-48962497#2_0', time=3908.00.
-Warning: Vehicle 'l3_h1_c20' ends teleporting on edge '-20862444#0', simulation time 3908.00.
- (3ms ~= 333.33*RT, ~104000.00UPS, vehicles TOT 358 ACT 312)     Step #3909.00Warning: Teleporting vehicle 'l1_h1_c10'; waited too long, lane='-48962611#5_0', time=3909.00.
-Warning: Vehicle 'l1_h1_c10' ends teleporting on edge '-48962611#4', simulation time 3909.00.
- (4ms ~= 250.00*RT, ~78750.00UPS, vehicles TOT 361 ACT 315)      Step #3910.00Warning: Teleporting vehicle 'l4_h1_c24'; waited too long, lane='9646899#8_0', time=3910.00.
-Warning: Teleporting vehicle 'l4_h1_c14'; waited too long, lane='9646899#11_0', time=3910.00.
-Warning: Teleporting vehicle 'l5_h1_c15'; waited too long, lane='-28959165#3_0', time=3910.00.
-Warning: Vehicle 'l4_h1_c24' ends teleporting on edge '9646899#9', simulation time 3910.00.
-Warning: Vehicle 'l4_h1_c14' ends teleporting on edge '48963882#1', simulation time 3910.00.
-Warning: Vehicle 'l5_h1_c15' ends teleporting on edge '-28959165#2', simulation time 3910.00.
- (4ms ~= 250.00*RT, ~78750.00UPS, vehicles TOT 361 ACT 315)      Step #3911.00Warning: Teleporting vehicle 'l3_h1_c0'; waited too long, lane='9646899#11_1', time=3911.00.
-Warning: Vehicle 'l3_h1_c0' ends teleporting on edge '9646899#12', simulation time 3911.00.
- (3ms ~= 333.33*RT, ~105333.33UPS, vehicles TOT 362 ACT 316)     Step #3912.00Warning: Teleporting vehicle 'l2_h1_c36'; waited too long, lane='49248915#0_0', time=3912.00.
-Warning: Teleporting vehicle 'l5_h1_c24'; waited too long, lane='-26988747#4_0', time=3912.00.
-Warning: Vehicle 'l2_h1_c36' ends teleporting on edge '49248915#1', simulation time 3912.00.
-Warning: Vehicle 'l5_h1_c24' ends teleporting on edge '-26988747#3', simulation time 3912.00.
- (4ms ~= 250.00*RT, ~79250.00UPS, vehicles TOT 363 ACT 317)      Step #3913.00Warning: Teleporting vehicle 'l3_h1_c6'; waited too long, lane='9646899#8_1', time=3913.00.
-Warning: Teleporting vehicle 'l6_h1_c29'; waited too long, lane='26721801#2_0', time=3913.00.
-Warning: Teleporting vehicle 'l5_h1_c5'; waited too long, lane='-28959165#1_0', time=3913.00.
-Warning: Vehicle 'l3_h1_c6' ends teleporting on edge '9646899#9', simulation time 3913.00.
-Warning: Vehicle 'l6_h1_c29' ends teleporting on edge '-28959165#3', simulation time 3913.00.
-Warning: Vehicle 'l5_h1_c5' ends teleporting on edge '-28959165#0', simulation time 3913.00.
- (3ms ~= 333.33*RT, ~105666.67UPS, vehicles TOT 363 ACT 317)     Step #3914.00Warning: Teleporting vehicle 'l2_h1_c8'; waited too long, lane='41339976#2_0', time=3914.00.
-Warning: Vehicle 'l2_h1_c8' ends teleporting on edge '-48962611#5', simulation time 3914.00.
- (4ms ~= 250.00*RT, ~79250.00UPS, vehicles TOT 364 ACT 317)      Step #3915.00Warning: Teleporting vehicle 'l5_h1_c22'; waited too long, lane='-26988747#1_0', time=3915.00.
-Warning: Teleporting vehicle 'l4_h1_c27'; waited too long, lane='20862083#4_0', time=3915.00.
-Warning: Vehicle 'l5_h1_c22' ends teleporting on edge '-26988747#0', simulation time 3915.00.
-Warning: Vehicle 'l4_h1_c27' ends teleporting on edge '20862083#5', simulation time 3915.00.
- (4ms ~= 250.00*RT, ~80000.00UPS, vehicles TOT 367 ACT 320)      Step #3916.00Warning: Teleporting vehicle 'l2_h1_c0'; waited too long, lane='-20862444#4_0', time=3916.00.
-Warning: Vehicle 'l4_h1_c29' ends teleporting on edge '-20862444#3', simulation time 3916.00.
-Warning: Vehicle 'l2_h1_c0' ends teleporting on edge '39772432#3', simulation time 3916.00.
- (5ms ~= 200.00*RT, ~64400.00UPS, vehicles TOT 369 ACT 322)      Step #3917.00Warning: Teleporting vehicle 'l2_h1_c19'; waited too long, lane='23595097#5_1', time=3917.00.
-Warning: Vehicle 'l2_h1_c19' ends teleporting on edge '23595097#6', simulation time 3917.00.
- (4ms ~= 250.00*RT, ~80500.00UPS, vehicles TOT 370 ACT 322)      Step #3918.00Warning: Teleporting vehicle 'l3_h1_c24'; waited too long, lane='9646899#2_1', time=3918.00.
-Warning: Vehicle 'l3_h1_c24' ends teleporting on edge '-20862444#5', simulation time 3918.00.
- (4ms ~= 250.00*RT, ~80750.00UPS, vehicles TOT 371 ACT 323)      Step #3919.00Warning: Teleporting vehicle 'l4_h1_c1'; waited too long, lane='9646899#16_0', time=3919.00.
-Warning: Teleporting vehicle 'l2_h1_c28'; waited too long, lane='23595097#2_0', time=3919.00.
-Warning: Vehicle 'l2_h1_c28' ends teleporting on edge '23595097#3', simulation time 3919.00.
- (5ms ~= 200.00*RT, ~64600.00UPS, vehicles TOT 371 ACT 323)      Step #3920.00Warning: Teleporting vehicle 'l4_h1_c31'; waited too long, lane='9646899#2_0', time=3920.00.
-Warning: Vehicle 'l4_h1_c31' ends teleporting on edge '9646899#3', simulation time 3920.00.
- (4ms ~= 250.00*RT, ~81250.00UPS, vehicles TOT 373 ACT 325)      Step #3921.00Warning: Teleporting vehicle 'l2_h1_c29'; waited too long, lane='23595097#2_1', time=3921.00.
-Warning: Vehicle 'l4_h1_c1' ends teleporting on edge '9646899#17', simulation time 3921.00.
-Warning: Vehicle 'l2_h1_c29' ends teleporting on edge '23595097#3', simulation time 3921.00.
- (4ms ~= 250.00*RT, ~81250.00UPS, vehicles TOT 373 ACT 325)      Step #3922.00Warning: Teleporting vehicle 'l2_h1_c33'; waited too long, lane='23595097#0_0', time=3922.00.
-Warning: Vehicle 'l2_h1_c33' ends teleporting on edge '23595097#1', simulation time 3922.00.
- (4ms ~= 250.00*RT, ~81750.00UPS, vehicles TOT 375 ACT 327)      Step #3923.00 (5ms ~= 200.00*RT, ~65800.00UPS, vehicles TOT 377 ACT 329)      Step #3924.00 (4ms ~= 250.00*RT, ~82500.00UPS, vehicles TOT 378 ACT 330)      Step #3925.00 (4ms ~= 250.00*RT, ~82500.00UPS, vehicles TOT 379 ACT 330)      Step #3926.00 (5ms ~= 200.00*RT, ~65800.00UPS, vehicles TOT 379 ACT 329)      Step #3927.00Warning: Teleporting vehicle 'l6_h1_c30'; waited too long, lane='26721801#2_0', time=3927.00.
-Warning: Vehicle 'l6_h1_c30' ends teleporting on edge '-28959165#3', simulation time 3927.00.
- (4ms ~= 250.00*RT, ~82500.00UPS, vehicles TOT 380 ACT 330)      Step #3928.00 (4ms ~= 250.00*RT, ~82750.00UPS, vehicles TOT 382 ACT 331)      Step #3929.00Warning: Teleporting vehicle 'l2_h1_c36'; waited too long, lane='49248919#0_0', time=3929.00.
-Warning: Vehicle 'l2_h1_c36' ends teleporting on edge '49248919#1', simulation time 3929.00.
- (4ms ~= 250.00*RT, ~82750.00UPS, vehicles TOT 383 ACT 331)      Step #3930.00 (4ms ~= 250.00*RT, ~83000.00UPS, vehicles TOT 384 ACT 332)      Step #3931.00Warning: Teleporting vehicle 'l3_h1_c24'; waited too long, lane='-20862444#5_0', time=3931.00.
-Warning: Vehicle 'l3_h1_c24' ends teleporting on edge '-20862444#4', simulation time 3931.00.
- (5ms ~= 200.00*RT, ~66800.00UPS, vehicles TOT 386 ACT 334)      Step #3932.00Warning: Teleporting vehicle 'l4_h1_c27'; waited too long, lane='20862083#5_0', time=3932.00.
-Warning: Vehicle 'l4_h1_c27' ends teleporting on edge '48962611#4', simulation time 3932.00.
- (4ms ~= 250.00*RT, ~83500.00UPS, vehicles TOT 386 ACT 334)      Step #3933.00 (4ms ~= 250.00*RT, ~84250.00UPS, vehicles TOT 389 ACT 337)      Step #3934.00Warning: Teleporting vehicle 'l3_h1_c3'; waited too long, lane='25633229#4_1', time=3934.00.
-Warning: Vehicle 'l3_h1_c3' ends teleporting on edge '25633229#5', simulation time 3934.00.
- (4ms ~= 250.00*RT, ~84500.00UPS, vehicles TOT 391 ACT 338)      Step #3935.00 (4ms ~= 250.00*RT, ~84500.00UPS, vehicles TOT 391 ACT 338)      Step #3936.00Warning: Teleporting vehicle 'l6_h1_c2'; waited too long, lane='9040840#6_0', time=3936.00.
-Warning: Vehicle 'l6_h1_c2' ends teleporting on edge '9040840#7', simulation time 3936.00.
- (3ms ~= 333.33*RT, ~113000.00UPS, vehicles TOT 392 ACT 339)     Step #3937.00Warning: Teleporting vehicle 'l3_h1_c22'; waited too long, lane='25633229#1_0', time=3937.00.
-Warning: Teleporting vehicle 'l5_h1_c31'; waited too long, lane='28965686_0', time=3937.00.
-Warning: Vehicle 'l3_h1_c22' ends teleporting on edge '25633229#2', simulation time 3937.00.
-Warning: Vehicle 'l5_h1_c31' ends teleporting on edge '-26988747#4', simulation time 3937.00.
- (4ms ~= 250.00*RT, ~85000.00UPS, vehicles TOT 393 ACT 340)      Step #3938.00 (5ms ~= 200.00*RT, ~68400.00UPS, vehicles TOT 395 ACT 342)      Step #3939.00Warning: Teleporting vehicle 'l6_h1_c0'; waited too long, lane='48964267#0_0', time=3939.00.
-Warning: Teleporting vehicle 'l2_h1_c13'; waited too long, lane='48962566#0_0', time=3939.00.
-Warning: Teleporting vehicle 'l6_h1_c1'; waited too long, lane='9040840#6_1', time=3939.00.
-Warning: Teleporting vehicle 'l2_h1_c25'; waited too long, lane='-48962497#3_0', time=3939.00.
-Warning: Vehicle 'l6_h1_c0' ends teleporting on edge '48964267#1', simulation time 3939.00.
-Warning: Vehicle 'l6_h1_c1' ends teleporting on edge '9040840#7', simulation time 3939.00.
-Warning: Vehicle 'l2_h1_c25' ends teleporting on edge '-48962497#2', simulation time 3939.00.
- (4ms ~= 250.00*RT, ~84750.00UPS, vehicles TOT 395 ACT 339)      Step #3940.00 (3ms ~= 333.33*RT, ~113333.33UPS, vehicles TOT 397 ACT 340)     Step #3941.00Warning: Teleporting vehicle 'l6_h1_c31'; waited too long, lane='26721801#2_0', time=3941.00.
-Warning: Vehicle 'l6_h1_c31' ends teleporting on edge '-28959165#3', simulation time 3941.00.
- (4ms ~= 250.00*RT, ~84750.00UPS, vehicles TOT 397 ACT 339)      Step #3942.00 (3ms ~= 333.33*RT, ~113333.33UPS, vehicles TOT 398 ACT 340)     Step #3943.00 (4ms ~= 250.00*RT, ~85500.00UPS, vehicles TOT 400 ACT 342)      Step #3944.00 (4ms ~= 250.00*RT, ~85250.00UPS, vehicles TOT 400 ACT 341)      Step #3945.00Warning: Teleporting vehicle 'l4_h1_c29'; waited too long, lane='-20862444#0_0', time=3945.00.
-Warning: Vehicle 'l4_h1_c29' ends teleporting on edge '20862083#4', simulation time 3945.00.
- (4ms ~= 250.00*RT, ~86000.00UPS, vehicles TOT 403 ACT 344)      Step #3946.00 (4ms ~= 250.00*RT, ~86500.00UPS, vehicles TOT 405 ACT 346)      Step #3947.00Warning: Teleporting vehicle 'l3_h1_c20'; waited too long, lane='20862083#5_0', time=3947.00.
-Warning: Vehicle 'l3_h1_c20' ends teleporting on edge '48962611#4', simulation time 3947.00.
- (4ms ~= 250.00*RT, ~86500.00UPS, vehicles TOT 405 ACT 346)      Step #3948.00Warning: Teleporting vehicle 'l2_h1_t5'; waited too long, lane='23595097#0_0', time=3948.00.
-Warning: Teleporting vehicle 'l3_h1_c28'; waited too long, lane='-20862444#5_0', time=3948.00.
-Warning: Vehicle 'l2_h1_t5' ends teleporting on edge '23595097#1', simulation time 3948.00.
-Warning: Vehicle 'l3_h1_c28' ends teleporting on edge '-20862444#4', simulation time 3948.00.
- (4ms ~= 250.00*RT, ~86500.00UPS, vehicles TOT 406 ACT 346)      Step #3949.00 (4ms ~= 250.00*RT, ~86750.00UPS, vehicles TOT 407 ACT 347)      Step #3950.00Warning: Teleporting vehicle 'l2_h1_t3'; waited too long, lane='25634934#0_0', time=3950.00.
- (4ms ~= 250.00*RT, ~86250.00UPS, vehicles TOT 407 ACT 345)      Step #3951.00Warning: Teleporting vehicle 'l2_h1_c24'; waited too long, lane='48963882#0_0', time=3951.00.
-Warning: Teleporting vehicle 'l5_h1_c32'; waited too long, lane='28965686_0', time=3951.00.
-Warning: Teleporting vehicle 'l5_h1_c24'; waited too long, lane='-26988747#0_0', time=3951.00.
-Warning: Vehicle 'l2_h1_c24' ends teleporting on edge '48963882#1', simulation time 3951.00.
-Warning: Vehicle 'l5_h1_c32' ends teleporting on edge '-26988747#4', simulation time 3951.00.
-Warning: Vehicle 'l5_h1_c24' ends teleporting on edge '-28959165#3', simulation time 3951.00.
- (5ms ~= 200.00*RT, ~69200.00UPS, vehicles TOT 409 ACT 346)      Step #3952.00Warning: Teleporting vehicle 'l5_h1_c1'; waited too long, lane='-12824415#1_0', time=3952.00.
-Warning: Teleporting vehicle 'l1_h1_c13'; waited too long, lane='-48962611#6_0', time=3952.00.
-Warning: Vehicle 'l5_h1_c1' ends teleporting on edge '25633229#5', simulation time 3952.00.
-Warning: Vehicle 'l1_h1_c13' ends teleporting on edge '-48962611#5', simulation time 3952.00.
- (4ms ~= 250.00*RT, ~86750.00UPS, vehicles TOT 411 ACT 347)      Step #3953.00 (3ms ~= 333.33*RT, ~115666.67UPS, vehicles TOT 412 ACT 347)     Step #3954.00Warning: Teleporting vehicle 'l5_h1_c0'; waited too long, lane='9040840#6_1', time=3954.00.
-Warning: Teleporting vehicle 'l3_h1_c23'; waited too long, lane='25633229#1_0', time=3954.00.
-Warning: Teleporting vehicle 'l2_h1_c0'; waited too long, lane='20862249#2_0', time=3954.00.
-Warning: Vehicle 'l5_h1_c0' ends teleporting on edge '9040840#7', simulation time 3954.00.
-Warning: Vehicle 'l3_h1_c23' ends teleporting on edge '25633229#2', simulation time 3954.00.
-Warning: Vehicle 'l2_h1_c0' ends teleporting on edge '20862249#3', simulation time 3954.00.
- (4ms ~= 250.00*RT, ~86750.00UPS, vehicles TOT 413 ACT 347)      Step #3955.00Warning: Teleporting vehicle 'l3_h1_c40'; waited too long, lane='-24388108#5_0', time=3955.00.
- (4ms ~= 250.00*RT, ~86750.00UPS, vehicles TOT 413 ACT 347)      Step #3956.00Warning: Teleporting vehicle 'l1_h1_c11'; waited too long, lane='24388108#4_1', time=3956.00.
-Warning: Teleporting vehicle 'l2_h1_c41'; waited too long, lane='49248919#0_0', time=3956.00.
-Warning: Vehicle 'l1_h1_c11' ends teleporting on edge '24388108#5', simulation time 3956.00.
-Warning: Vehicle 'l2_h1_c41' ends teleporting on edge '49248919#1', simulation time 3956.00.
- (4ms ~= 250.00*RT, ~86750.00UPS, vehicles TOT 414 ACT 347)      Step #3957.00 (3ms ~= 333.33*RT, ~115000.00UPS, vehicles TOT 414 ACT 345)     Step #3958.00Warning: Teleporting vehicle 'l5_h1_c2'; waited too long, lane='-12824415#1_1', time=3958.00.
-Warning: Teleporting vehicle 'l3_h1_c27'; waited too long, lane='25633229#1_1', time=3958.00.
- (5ms ~= 200.00*RT, ~69000.00UPS, vehicles TOT 415 ACT 345)      Step #3959.00Warning: Teleporting vehicle 'l6_h1_t5'; waited too long, lane='26721801#2_0', time=3959.00.
-Warning: Vehicle 'l6_h1_t5' ends teleporting on edge '-28959165#3', simulation time 3959.00.
- (4ms ~= 250.00*RT, ~87000.00UPS, vehicles TOT 418 ACT 348)      Step #3960.00 (5ms ~= 200.00*RT, ~70000.00UPS, vehicles TOT 420 ACT 350)      Step #3961.00Warning: Teleporting vehicle 'l3_h1_c24'; waited too long, lane='-20862444#0_0', time=3961.00.
-Warning: Vehicle 'l3_h1_c24' ends teleporting on edge '20862083#4', simulation time 3961.00.
- (5ms ~= 200.00*RT, ~69800.00UPS, vehicles TOT 421 ACT 349)      Step #3962.00Warning: Vehicle 'l3_h1_c40' ends teleporting on edge '-24388108#4', simulation time 3962.00.
-Warning: Vehicle 'l5_h1_c2' ends teleporting on edge '-12824415#0', simulation time 3962.00.
- (4ms ~= 250.00*RT, ~87500.00UPS, vehicles TOT 422 ACT 350)      Step #3963.00 (4ms ~= 250.00*RT, ~87500.00UPS, vehicles TOT 422 ACT 350)      Step #3964.00Warning: Teleporting vehicle 'l4_h1_c44'; waited too long, lane='9646899#2_1', time=3964.00.
-Warning: Teleporting vehicle 'l6_h1_c18'; waited too long, lane='-28959165#1_0', time=3964.00.
-Warning: Vehicle 'l4_h1_c44' ends teleporting on edge '9646899#3', simulation time 3964.00.
-Warning: Vehicle 'l6_h1_c18' ends teleporting on edge '-28959165#0', simulation time 3964.00.
- (4ms ~= 250.00*RT, ~87750.00UPS, vehicles TOT 424 ACT 351)      Step #3965.00Warning: Teleporting vehicle 'l1_h1_c10'; waited too long, lane='-20862083#3_0', time=3965.00.
-Warning: Vehicle 'l1_h1_c10' ends teleporting on edge '-20862083#2', simulation time 3965.00.
- (4ms ~= 250.00*RT, ~88500.00UPS, vehicles TOT 427 ACT 354)      Step #3966.00Warning: Teleporting vehicle 'l5_h1_c25'; waited too long, lane='-26988747#0_0', time=3966.00.
-Warning: Vehicle 'l5_h1_c25' ends teleporting on edge '-28959165#3', simulation time 3966.00.
- (4ms ~= 250.00*RT, ~88250.00UPS, vehicles TOT 427 ACT 353)      Step #3967.00 (5ms ~= 200.00*RT, ~70800.00UPS, vehicles TOT 428 ACT 354)      Step #3968.00 (4ms ~= 250.00*RT, ~88750.00UPS, vehicles TOT 429 ACT 355)      Step #3969.00Warning: Teleporting vehicle 'l3_h1_c21'; waited too long, lane='9646899#8_0', time=3969.00.
-Warning: Vehicle 'l3_h1_c21' ends teleporting on edge '9646899#9', simulation time 3969.00.
- (4ms ~= 250.00*RT, ~89250.00UPS, vehicles TOT 431 ACT 357)      Step #3970.00Warning: Teleporting vehicle 'l3_h1_c29'; waited too long, lane='9646899#8_1', time=3970.00.
- (4ms ~= 250.00*RT, ~89500.00UPS, vehicles TOT 433 ACT 358)      Step #3971.00Warning: Teleporting vehicle 'l4_h1_c29'; waited too long, lane='20862083#4_0', time=3971.00.
-Warning: Teleporting vehicle 'l3_h1_c28'; waited too long, lane='-20862444#1_0', time=3971.00.
-Warning: Vehicle 'l4_h1_c29' ends teleporting on edge '20862083#5', simulation time 3971.00.
-Warning: Vehicle 'l3_h1_c28' ends teleporting on edge '-20862444#0', simulation time 3971.00.
- (4ms ~= 250.00*RT, ~89500.00UPS, vehicles TOT 433 ACT 358)      Step #3972.00 (4ms ~= 250.00*RT, ~89750.00UPS, vehicles TOT 434 ACT 359)      Step #3973.00Warning: Teleporting vehicle 'l4_h1_c46'; waited too long, lane='-24388108#5_1', time=3973.00.
-Warning: Teleporting vehicle 'l1_h1_c13'; waited too long, lane='-48962611#5_0', time=3973.00.
-Warning: Teleporting vehicle 'l4_h1_c33'; waited too long, lane='-20862444#4_0', time=3973.00.
-Warning: Vehicle 'l4_h1_c46' ends teleporting on edge '-24388108#4', simulation time 3973.00.
-Warning: Vehicle 'l1_h1_c13' ends teleporting on edge '-48962611#4', simulation time 3973.00.
-Warning: Vehicle 'l4_h1_c33' ends teleporting on edge '-20862444#3', simulation time 3973.00.
- (4ms ~= 250.00*RT, ~90000.00UPS, vehicles TOT 435 ACT 360)      Step #3974.00Warning: Teleporting vehicle 'l4_h1_c24'; waited too long, lane='9646899#11_0', time=3974.00.
-Warning: Teleporting vehicle 'l2_h1_c0'; waited too long, lane='20862249#3_0', time=3974.00.
-Warning: Vehicle 'l4_h1_c24' ends teleporting on edge '48963882#1', simulation time 3974.00.
- (5ms ~= 200.00*RT, ~72200.00UPS, vehicles TOT 438 ACT 361)      Step #3975.00Warning: Teleporting vehicle 'l2_h1_t5'; waited too long, lane='23595097#2_0', time=3975.00.
-Warning: Teleporting vehicle 'l3_h1_c38'; waited too long, lane='-24388108#5_0', time=3975.00.
-Warning: Teleporting vehicle 'l5_h1_c3'; waited too long, lane='-12824415#1_0', time=3975.00.
-Warning: Teleporting vehicle 'l2_h1_c26'; waited too long, lane='23595097#2_1', time=3975.00.
-Warning: Teleporting vehicle 'l3_h1_c1'; waited too long, lane='9646899#14_0', time=3975.00.
-Warning: Vehicle 'l2_h1_t5' ends teleporting on edge '23595097#3', simulation time 3975.00.
-Warning: Vehicle 'l3_h1_c38' ends teleporting on edge '-24388108#4', simulation time 3975.00.
-Warning: Vehicle 'l5_h1_c3' ends teleporting on edge '25633229#5', simulation time 3975.00.
-Warning: Vehicle 'l2_h1_c26' ends teleporting on edge '-48962497#3', simulation time 3975.00.
- (4ms ~= 250.00*RT, ~89750.00UPS, vehicles TOT 438 ACT 359)      Step #3976.00Warning: Vehicle 'l3_h1_c29' ends teleporting on edge '9646899#9', simulation time 3976.00.
- (5ms ~= 200.00*RT, ~71800.00UPS, vehicles TOT 440 ACT 359)      Step #3977.00Warning: Teleporting vehicle 'l6_h1_c5'; waited too long, lane='-12824415#1_1', time=3977.00.
-Warning: Teleporting vehicle 'l2_h1_c45'; waited too long, lane='49248915#0_1', time=3977.00.
-Warning: Teleporting vehicle 'l4_h1_c47'; waited too long, lane='20862083#1_0', time=3977.00.
-Warning: Teleporting vehicle 'l2_h1_t4'; waited too long, lane='-48962497#2_0', time=3977.00.
-Warning: Vehicle 'l3_h1_c1' ends teleporting on edge '-48962497#2', simulation time 3977.00.
-Warning: Vehicle 'l6_h1_c5' ends teleporting on edge '-12824415#0', simulation time 3977.00.
-Warning: Vehicle 'l2_h1_c45' ends teleporting on edge '49248915#1', simulation time 3977.00.
-Warning: Vehicle 'l4_h1_c47' ends teleporting on edge '20862181#0', simulation time 3977.00.
- (4ms ~= 250.00*RT, ~89500.00UPS, vehicles TOT 440 ACT 358)      Step #3978.00Warning: Teleporting vehicle 'l2_h1_c33'; waited too long, lane='23595097#5_1', time=3978.00.
-Warning: Teleporting vehicle 'l5_h1_c21'; waited too long, lane='-28959165#3_0', time=3978.00.
-Warning: Vehicle 'l2_h1_c33' ends teleporting on edge '23595097#6', simulation time 3978.00.
-Warning: Vehicle 'l5_h1_c21' ends teleporting on edge '-28959165#2', simulation time 3978.00.
- (5ms ~= 200.00*RT, ~71800.00UPS, vehicles TOT 442 ACT 359)      Step #3979.00Warning: Teleporting vehicle 'l3_h1_c43'; waited too long, lane='9646899#2_1', time=3979.00.
-Warning: Vehicle 'l3_h1_c43' ends teleporting on edge '9646899#3', simulation time 3979.00.
- (4ms ~= 250.00*RT, ~89750.00UPS, vehicles TOT 443 ACT 359)      Step #3980.00Warning: Teleporting vehicle 'l5_h1_c14'; waited too long, lane='-28959165#1_0', time=3980.00.
-Warning: Teleporting vehicle 'l5_h1_c31'; waited too long, lane='-26988747#1_0', time=3980.00.
-Warning: Vehicle 'l5_h1_c14' ends teleporting on edge '-28959165#0', simulation time 3980.00.
-Warning: Vehicle 'l5_h1_c31' ends teleporting on edge '-26988747#0', simulation time 3980.00.
- (4ms ~= 250.00*RT, ~90000.00UPS, vehicles TOT 444 ACT 360)      Step #3981.00Warning: Teleporting vehicle 'l3_h1_c44'; waited too long, lane='9646899#2_0', time=3981.00.
-Warning: Teleporting vehicle 'l5_h1_c26'; waited too long, lane='-26988747#0_0', time=3981.00.
-Warning: Vehicle 'l3_h1_c44' ends teleporting on edge '9646899#3', simulation time 3981.00.
-Warning: Vehicle 'l5_h1_c26' ends teleporting on edge '-28959165#3', simulation time 3981.00.
- (4ms ~= 250.00*RT, ~90500.00UPS, vehicles TOT 446 ACT 362)      Step #3982.00 (4ms ~= 250.00*RT, ~90250.00UPS, vehicles TOT 446 ACT 361)      Step #3983.00 (4ms ~= 250.00*RT, ~90750.00UPS, vehicles TOT 448 ACT 363)      Step #3984.00Warning: Teleporting vehicle 'l3_h1_c3'; waited too long, lane='25633229#6_1', time=3984.00.
-Warning: Teleporting vehicle 'l3_h1_c4'; waited too long, lane='9646899#14_1', time=3984.00.
-Warning: Vehicle 'l3_h1_c3' ends teleporting on edge '25633229#7', simulation time 3984.00.
-Warning: Vehicle 'l3_h1_c4' ends teleporting on edge '9646899#15', simulation time 3984.00.
- (4ms ~= 250.00*RT, ~90750.00UPS, vehicles TOT 448 ACT 363)      Step #3985.00Warning: Teleporting vehicle 'l4_h1_c31'; waited too long, lane='9646899#8_1', time=3985.00.
-Warning: Vehicle 'l4_h1_c31' ends teleporting on edge '9646899#9', simulation time 3985.00.
- (4ms ~= 250.00*RT, ~90750.00UPS, vehicles TOT 448 ACT 363)      Step #3986.00Warning: Teleporting vehicle 'l1_h1_c14'; waited too long, lane='-13854651#4_0', time=3986.00.
-Warning: Vehicle 'l1_h1_c14' ends teleporting on edge '-13854651#3', simulation time 3986.00.
- (4ms ~= 250.00*RT, ~91250.00UPS, vehicles TOT 450 ACT 365)      Step #3987.00Warning: Teleporting vehicle 'l1_h1_c10'; waited too long, lane='-20862083#2_0', time=3987.00.
-Warning: Teleporting vehicle 'l1_h1_c13'; waited too long, lane='-48962611#4_0', time=3987.00.
-Warning: Vehicle 'l1_h1_c10' ends teleporting on edge '-20862083#1', simulation time 3987.00.
-Warning: Vehicle 'l1_h1_c13' ends teleporting on edge '-20862083#5', simulation time 3987.00.
- (4ms ~= 250.00*RT, ~91000.00UPS, vehicles TOT 451 ACT 364)      Step #3988.00Warning: Teleporting vehicle 'l1_h1_t1'; waited too long, lane='9646899#8_0', time=3988.00.
-Warning: Teleporting vehicle 'l3_h1_c8'; waited too long, lane='9646899#11_1', time=3988.00.
-Warning: Teleporting vehicle 'l3_h1_c6'; waited too long, lane='9646899#11_0', time=3988.00.
-Warning: Vehicle 'l3_h1_c8' ends teleporting on edge '9646899#12', simulation time 3988.00.
-Warning: Vehicle 'l3_h1_c6' ends teleporting on edge '48963882#1', simulation time 3988.00.
- (4ms ~= 250.00*RT, ~91750.00UPS, vehicles TOT 454 ACT 367)      Step #3989.00Warning: Teleporting vehicle 'l2_h1_c14'; waited too long, lane='-48962611#5_0', time=3989.00.
-Warning: Teleporting vehicle 'l4_h1_c29'; waited too long, lane='48962611#4_0', time=3989.00.
-Warning: Teleporting vehicle 'l2_h1_c26'; waited too long, lane='-48962497#3_0', time=3989.00.
-Warning: Vehicle 'l2_h1_c14' ends teleporting on edge '-48962611#4', simulation time 3989.00.
-Warning: Vehicle 'l2_h1_c26' ends teleporting on edge '-48962497#2', simulation time 3989.00.
- (4ms ~= 250.00*RT, ~91500.00UPS, vehicles TOT 455 ACT 366)      Step #3990.00Warning: Teleporting vehicle 'l2_h1_c30'; waited too long, lane='23595097#2_1', time=3990.00.
-Warning: Teleporting vehicle 'l1_h1_c2'; waited too long, lane='9646899#14_0', time=3990.00.
-Warning: Vehicle 'l2_h1_c30' ends teleporting on edge '-48962497#3', simulation time 3990.00.
- (4ms ~= 250.00*RT, ~91750.00UPS, vehicles TOT 456 ACT 367)      Step #3991.00Warning: Teleporting vehicle 'l2_h1_c46'; waited too long, lane='49248915#0_1', time=3991.00.
-Warning: Teleporting vehicle 'l3_h1_c1'; waited too long, lane='-48962497#2_0', time=3991.00.
-Warning: Vehicle 'l2_h1_c46' ends teleporting on edge '49248915#1', simulation time 3991.00.
- (4ms ~= 250.00*RT, ~91250.00UPS, vehicles TOT 456 ACT 365)      Step #3992.00Warning: Teleporting vehicle 'l2_h1_c37'; waited too long, lane='23595097#2_0', time=3992.00.
-Warning: Vehicle 'l2_h1_c37' ends teleporting on edge '23595097#3', simulation time 3992.00.
- (4ms ~= 250.00*RT, ~91500.00UPS, vehicles TOT 457 ACT 366)      Step #3993.00Warning: Teleporting vehicle 'l2_h1_c31'; waited too long, lane='23595097#5_1', time=3993.00.
-Warning: Teleporting vehicle 'l4_h1_c45'; waited too long, lane='9646899#2_1', time=3993.00.
-Warning: Teleporting vehicle 'l5_h1_c22'; waited too long, lane='-28959165#3_0', time=3993.00.
-Warning: Teleporting vehicle 'l2_h1_t1'; waited too long, lane='41339976#2_0', time=3993.00.
-Warning: Vehicle 'l2_h1_c31' ends teleporting on edge '23595097#6', simulation time 3993.00.
-Warning: Vehicle 'l4_h1_c45' ends teleporting on edge '9646899#3', simulation time 3993.00.
-Warning: Vehicle 'l5_h1_c22' ends teleporting on edge '-28959165#2', simulation time 3993.00.
-Warning: Vehicle 'l2_h1_t1' ends teleporting on edge '-48962611#5', simulation time 3993.00.
- (4ms ~= 250.00*RT, ~91000.00UPS, vehicles TOT 457 ACT 364)      Step #3994.00Warning: Teleporting vehicle 'l3_h1_c24'; waited too long, lane='20862083#4_0', time=3994.00.
-Warning: Teleporting vehicle 'l5_h1_c33'; waited too long, lane='-26988747#4_0', time=3994.00.
-Warning: Vehicle 'l3_h1_c24' ends teleporting on edge '20862083#5', simulation time 3994.00.
-Warning: Vehicle 'l5_h1_c33' ends teleporting on edge '-26988747#3', simulation time 3994.00.
- (4ms ~= 250.00*RT, ~91250.00UPS, vehicles TOT 458 ACT 365)      Step #3995.00Warning: Teleporting vehicle 'l6_h1_c19'; waited too long, lane='-28959165#1_0', time=3995.00.
-Warning: Teleporting vehicle 'l5_h1_c27'; waited too long, lane='-26988747#0_0', time=3995.00.
-Warning: Vehicle 'l1_h1_c2' ends teleporting on edge '-48962497#2', simulation time 3995.00.
-Warning: Vehicle 'l6_h1_c19' ends teleporting on edge '-28959165#0', simulation time 3995.00.
-Warning: Vehicle 'l5_h1_c27' ends teleporting on edge '-28959165#3', simulation time 3995.00.
- (5ms ~= 200.00*RT, ~73400.00UPS, vehicles TOT 461 ACT 367)      Step #3996.00Warning: Teleporting vehicle 'l3_h1_c47'; waited too long, lane='9646899#2_0', time=3996.00.
-Warning: Teleporting vehicle 'l5_h1_c32'; waited too long, lane='-26988747#1_0', time=3996.00.
-Warning: Teleporting vehicle 'l4_h1_c33'; waited too long, lane='-20862444#1_0', time=3996.00.
-Warning: Vehicle 'l3_h1_c47' ends teleporting on edge '9646899#3', simulation time 3996.00.
-Warning: Vehicle 'l5_h1_c32' ends teleporting on edge '-26988747#0', simulation time 3996.00.
-Warning: Vehicle 'l4_h1_c33' ends teleporting on edge '-20862444#0', simulation time 3996.00.
- (5ms ~= 200.00*RT, ~73600.00UPS, vehicles TOT 462 ACT 368)      Step #3997.00 (4ms ~= 250.00*RT, ~92250.00UPS, vehicles TOT 463 ACT 369)      Step #3998.00 (4ms ~= 250.00*RT, ~92500.00UPS, vehicles TOT 464 ACT 370)      Step #3999.00 (5ms ~= 200.00*RT, ~73800.00UPS, vehicles TOT 464 ACT 369)      Step #4000.00 (5ms ~= 200.00*RT, ~74000.00UPS, vehicles TOT 465 ACT 370)      Step #4001.00Warning: Teleporting vehicle 'l3_h1_c22'; waited too long, lane='25633229#4_0', time=4001.00.
-Warning: Teleporting vehicle 'l5_h1_c2'; waited too long, lane='9040840#6_0', time=4001.00.
-Warning: Vehicle 'l3_h1_c22' ends teleporting on edge '12824415#1', simulation time 4001.00.
-Warning: Vehicle 'l5_h1_c2' ends teleporting on edge '9040840#7', simulation time 4001.00.
- (5ms ~= 200.00*RT, ~74000.00UPS, vehicles TOT 467 ACT 370)      Step #4002.00 (5ms ~= 200.00*RT, ~74000.00UPS, vehicles TOT 467 ACT 370)      Step #4003.00 (5ms ~= 200.00*RT, ~74400.00UPS, vehicles TOT 470 ACT 372)      Step #4004.00Warning: Teleporting vehicle 'l4_h1_c19'; waited too long, lane='9646899#14_0', time=4004.00.
-Warning: Teleporting vehicle 'l6_h1_c41'; waited too long, lane='26721801#2_0', time=4004.00.
-Warning: Teleporting vehicle 'l2_h1_c30'; waited too long, lane='-48962497#3_0', time=4004.00.
-Warning: Vehicle 'l4_h1_c19' ends teleporting on edge '-48962497#2', simulation time 4004.00.
-Warning: Vehicle 'l6_h1_c41' ends teleporting on edge '-28959165#3', simulation time 4004.00.
- (6ms ~= 166.67*RT, ~62166.67UPS, vehicles TOT 471 ACT 373)      Step #4005.00 (6ms ~= 166.67*RT, ~62166.67UPS, vehicles TOT 472 ACT 373)      Step #4006.00Warning: Teleporting vehicle 'l6_h1_c6'; waited too long, lane='-12824415#0_1', time=4006.00.
-Warning: Vehicle 'l6_h1_c6' ends teleporting on edge '9040840#6', simulation time 4006.00.
- (5ms ~= 200.00*RT, ~75000.00UPS, vehicles TOT 474 ACT 375)      Step #4007.00 (4ms ~= 250.00*RT, ~93750.00UPS, vehicles TOT 474 ACT 375)      Step #4008.00Warning: Teleporting vehicle 'l2_h1_c45'; waited too long, lane='23595097#0_0', time=4008.00.
-Warning: Teleporting vehicle 'l3_h1_c45'; waited too long, lane='9646899#2_1', time=4008.00.
-Warning: Vehicle 'l2_h1_c45' ends teleporting on edge '23595097#1', simulation time 4008.00.
-Warning: Vehicle 'l3_h1_c45' ends teleporting on edge '-20862444#5', simulation time 4008.00.
- (5ms ~= 200.00*RT, ~75200.00UPS, vehicles TOT 477 ACT 376)      Step #4009.00Warning: Teleporting vehicle 'l5_h1_c28'; waited too long, lane='-26988747#0_0', time=4009.00.
-Warning: Vehicle 'l2_h1_c30' ends teleporting on edge '-48962497#2', simulation time 4009.00.
-Warning: Vehicle 'l5_h1_c28' ends teleporting on edge '-28959165#3', simulation time 4009.00.
- (4ms ~= 250.00*RT, ~94250.00UPS, vehicles TOT 478 ACT 377)      Step #4010.00 (4ms ~= 250.00*RT, ~94250.00UPS, vehicles TOT 479 ACT 377)      Step #4011.00Warning: Teleporting vehicle 'l4_h1_c48'; waited too long, lane='9646899#2_0', time=4011.00.
-Warning: Teleporting vehicle 'l3_h1_c24'; waited too long, lane='20862083#5_0', time=4011.00.
-Warning: Vehicle 'l4_h1_c48' ends teleporting on edge '9646899#3', simulation time 4011.00.
-Warning: Vehicle 'l3_h1_c24' ends teleporting on edge '48962611#4', simulation time 4011.00.
- (5ms ~= 200.00*RT, ~75800.00UPS, vehicles TOT 481 ACT 379)      Step #4012.00Warning: Vehicle 'l1_h1_t1' ends teleporting on edge '9646899#9', simulation time 4012.00.
- (4ms ~= 250.00*RT, ~95000.00UPS, vehicles TOT 482 ACT 380)      Step #4013.00Warning: Vehicle 'l2_h1_t4' ends teleporting on edge '-48962497#1', simulation time 4013.00.
- (5ms ~= 200.00*RT, ~75600.00UPS, vehicles TOT 482 ACT 378)      Step #4014.00 (5ms ~= 200.00*RT, ~75800.00UPS, vehicles TOT 483 ACT 379)      Step #4015.00Warning: Teleporting vehicle 'l3_h1_c35'; waited too long, lane='25633229#3_1', time=4015.00.
-Warning: Teleporting vehicle 'l4_h1_c32'; waited too long, lane='25633229#3_0', time=4015.00.
-Warning: Teleporting vehicle 'l4_h1_c33'; waited too long, lane='-20862444#0_0', time=4015.00.
-Warning: Vehicle 'l3_h1_c35' ends teleporting on edge '25633229#4', simulation time 4015.00.
-Warning: Vehicle 'l4_h1_c32' ends teleporting on edge '25633229#4', simulation time 4015.00.
-Warning: Vehicle 'l4_h1_c33' ends teleporting on edge '20862083#4', simulation time 4015.00.
- (5ms ~= 200.00*RT, ~76200.00UPS, vehicles TOT 485 ACT 381)      Step #4016.00Warning: Teleporting vehicle 'l6_h1_c5'; waited too long, lane='9040840#6_1', time=4016.00.
-Warning: Teleporting vehicle 'l3_h1_c23'; waited too long, lane='25633229#4_0', time=4016.00.
-Warning: Vehicle 'l6_h1_c5' ends teleporting on edge '9040840#7', simulation time 4016.00.
-Warning: Vehicle 'l3_h1_c23' ends teleporting on edge '12824415#1', simulation time 4016.00.
- (5ms ~= 200.00*RT, ~76200.00UPS, vehicles TOT 485 ACT 381)      Step #4017.00Warning: Teleporting vehicle 'l1_h1_t4'; waited too long, lane='-48962611#6_0', time=4017.00.
-Warning: Vehicle 'l1_h1_t4' ends teleporting on edge '-48962611#5', simulation time 4017.00.
- (5ms ~= 200.00*RT, ~76800.00UPS, vehicles TOT 488 ACT 384)      Step #4018.00Warning: Teleporting vehicle 'l2_h1_t2'; waited too long, lane='48962566#0_0', time=4018.00.
- (5ms ~= 200.00*RT, ~76800.00UPS, vehicles TOT 489 ACT 384)      Step #4019.00Warning: Teleporting vehicle 'l2_h1_c35'; waited too long, lane='-48962497#3_0', time=4019.00.
-Warning: Vehicle 'l2_h1_c35' ends teleporting on edge '-48962497#2', simulation time 4019.00.
- (5ms ~= 200.00*RT, ~76800.00UPS, vehicles TOT 490 ACT 384)      Step #4020.00Warning: Teleporting vehicle 'l5_h1_c40'; waited too long, lane='28965686_0', time=4020.00.
-Warning: Vehicle 'l5_h1_c40' ends teleporting on edge '-26988747#4', simulation time 4020.00.
- (5ms ~= 200.00*RT, ~76600.00UPS, vehicles TOT 490 ACT 383)      Step #4021.00Warning: Teleporting vehicle 'l2_h1_c51'; waited too long, lane='49248919#0_0', time=4021.00.
-Warning: Teleporting vehicle 'l6_h1_t7'; waited too long, lane='26721801#2_0', time=4021.00.
-Warning: Teleporting vehicle 'l3_h1_c45'; waited too long, lane='-20862444#5_0', time=4021.00.
-Warning: Vehicle 'l2_h1_c51' ends teleporting on edge '49248919#1', simulation time 4021.00.
-Warning: Vehicle 'l6_h1_t7' ends teleporting on edge '-28959165#3', simulation time 4021.00.
- (4ms ~= 250.00*RT, ~96000.00UPS, vehicles TOT 491 ACT 384)      Step #4022.00 (5ms ~= 200.00*RT, ~77000.00UPS, vehicles TOT 492 ACT 385)      Step #4023.00Warning: Teleporting vehicle 'l2_h1_c41'; waited too long, lane='9040840#0_1', time=4023.00.
-Warning: Teleporting vehicle 'l2_h1_c46'; waited too long, lane='23595097#0_1', time=4023.00.
-Warning: Vehicle 'l2_h1_c46' ends teleporting on edge '23595097#1', simulation time 4023.00.
- (5ms ~= 200.00*RT, ~77000.00UPS, vehicles TOT 493 ACT 385)      Step #4024.00 (5ms ~= 200.00*RT, ~77600.00UPS, vehicles TOT 496 ACT 388)      Step #4025.00Warning: Teleporting vehicle 'l3_h1_c40'; waited too long, lane='25633229#1_0', time=4025.00.
-Warning: Teleporting vehicle 'l3_h1_c28'; waited too long, lane='20862083#5_0', time=4025.00.
-Warning: Vehicle 'l3_h1_c45' ends teleporting on edge '-20862444#4', simulation time 4025.00.
- (5ms ~= 200.00*RT, ~77200.00UPS, vehicles TOT 496 ACT 386)      Step #4026.00 (5ms ~= 200.00*RT, ~77200.00UPS, vehicles TOT 497 ACT 386)      Step #4027.00 (5ms ~= 200.00*RT, ~77400.00UPS, vehicles TOT 498 ACT 387)      Step #4028.00Warning: Teleporting vehicle 'l2_h1_t9'; waited too long, lane='49248915#1_0', time=4028.00.
-Warning: Vehicle 'l2_h1_t9' ends teleporting on edge '49248915#2', simulation time 4028.00.
- (5ms ~= 200.00*RT, ~77000.00UPS, vehicles TOT 498 ACT 385)      Step #4029.00Warning: Teleporting vehicle 'l3_h1_c39'; waited too long, lane='25633229#3_0', time=4029.00.
-Warning: Teleporting vehicle 'l5_h1_c3'; waited too long, lane='48964267#0_0', time=4029.00.
-Warning: Vehicle 'l3_h1_c39' ends teleporting on edge '25633229#4', simulation time 4029.00.
-Warning: Vehicle 'l5_h1_c3' ends teleporting on edge '48964267#1', simulation time 4029.00.
- (5ms ~= 200.00*RT, ~77000.00UPS, vehicles TOT 499 ACT 385)      Step #4030.00 (5ms ~= 200.00*RT, ~77200.00UPS, vehicles TOT 500 ACT 386)      Step #4031.00Warning: Teleporting vehicle 'l4_h1_c40'; waited too long, lane='25633229#3_1', time=4031.00.
-Warning: Vehicle 'l4_h1_c40' ends teleporting on edge '25633229#4', simulation time 4031.00.
- (5ms ~= 200.00*RT, ~77600.00UPS, vehicles TOT 502 ACT 388)      Step #4032.00 (5ms ~= 200.00*RT, ~78000.00UPS, vehicles TOT 504 ACT 390)      Step #4033.00Warning: Teleporting vehicle 'l2_h1_c40'; waited too long, lane='-48962497#3_0', time=4033.00.
-Warning: Vehicle 'l2_h1_c40' ends teleporting on edge '-48962497#2', simulation time 4033.00.
- (5ms ~= 200.00*RT, ~78200.00UPS, vehicles TOT 506 ACT 391)      Step #4034.00 (4ms ~= 250.00*RT, ~97750.00UPS, vehicles TOT 506 ACT 391)      Step #4035.00 (5ms ~= 200.00*RT, ~77800.00UPS, vehicles TOT 506 ACT 389)      Step #4036.00Warning: Teleporting vehicle 'l6_h1_c1'; waited too long, lane='24388108#4_0', time=4036.00.
-Warning: Teleporting vehicle 'l5_h1_c41'; waited too long, lane='28965686_0', time=4036.00.
-Warning: Vehicle 'l6_h1_c1' ends teleporting on edge '8603729#0', simulation time 4036.00.
-Warning: Vehicle 'l5_h1_c41' ends teleporting on edge '-26988747#4', simulation time 4036.00.
- (5ms ~= 200.00*RT, ~78000.00UPS, vehicles TOT 509 ACT 390)      Step #4037.00 (5ms ~= 200.00*RT, ~78000.00UPS, vehicles TOT 510 ACT 390)      Step #4038.00 (5ms ~= 200.00*RT, ~77600.00UPS, vehicles TOT 510 ACT 388)      Step #4039.00Warning: Teleporting vehicle 'l6_h1_c9'; waited too long, lane='-12824415#1_0', time=4039.00.
-Warning: Vehicle 'l6_h1_c9' ends teleporting on edge '25633229#5', simulation time 4039.00.
- (5ms ~= 200.00*RT, ~77800.00UPS, vehicles TOT 511 ACT 389)      Step #4040.00 (5ms ~= 200.00*RT, ~77200.00UPS, vehicles TOT 512 ACT 386)      Step #4041.00Warning: Teleporting vehicle 'l3_h1_c43'; waited too long, lane='9646899#8_0', time=4041.00.
-Warning: Teleporting vehicle 'l3_h1_c38'; waited too long, lane='25633229#1_0', time=4041.00.
-Warning: Teleporting vehicle 'l6_h1_c42'; waited too long, lane='26721801#2_0', time=4041.00.
-Warning: Teleporting vehicle 'l4_h1_c51'; waited too long, lane='-20862444#5_0', time=4041.00.
-Warning: Vehicle 'l3_h1_c43' ends teleporting on edge '9646899#9', simulation time 4041.00.
-Warning: Vehicle 'l3_h1_c38' ends teleporting on edge '25633229#2', simulation time 4041.00.
-Warning: Vehicle 'l6_h1_c42' ends teleporting on edge '-28959165#3', simulation time 4041.00.
-Warning: Vehicle 'l4_h1_c51' ends teleporting on edge '-20862444#4', simulation time 4041.00.
- (5ms ~= 200.00*RT, ~77600.00UPS, vehicles TOT 514 ACT 388)      Step #4042.00 (5ms ~= 200.00*RT, ~78000.00UPS, vehicles TOT 516 ACT 390)      Step #4043.00Warning: Teleporting vehicle 'l4_h1_c33'; waited too long, lane='20862083#5_0', time=4043.00.
-Warning: Vehicle 'l4_h1_c33' ends teleporting on edge '48962611#4', simulation time 4043.00.
- (4ms ~= 250.00*RT, ~97250.00UPS, vehicles TOT 516 ACT 389)      Step #4044.00Warning: Teleporting vehicle 'l3_h1_c64'; waited too long, lane='-24388108#5_1', time=4044.00.
-Warning: Teleporting vehicle 'l6_h1_c13'; waited too long, lane='-12824415#1_1', time=4044.00.
-Warning: Teleporting vehicle 'l5_h1_c39'; waited too long, lane='-26988747#1_0', time=4044.00.
-Warning: Vehicle 'l6_h1_c13' ends teleporting on edge '-12824415#0', simulation time 4044.00.
-Warning: Vehicle 'l5_h1_c39' ends teleporting on edge '-26988747#0', simulation time 4044.00.
- (5ms ~= 200.00*RT, ~77800.00UPS, vehicles TOT 517 ACT 389)      Step #4045.00 (5ms ~= 200.00*RT, ~78000.00UPS, vehicles TOT 518 ACT 390)      Step #4046.00Warning: Teleporting vehicle 'l2_h1_c42'; waited too long, lane='23595097#2_0', time=4046.00.
-Warning: Teleporting vehicle 'l6_h1_c28'; waited too long, lane='-28959165#1_0', time=4046.00.
-Warning: Vehicle 'l2_h1_c42' ends teleporting on edge '23595097#3', simulation time 4046.00.
-Warning: Vehicle 'l6_h1_c28' ends teleporting on edge '-28959165#0', simulation time 4046.00.
- (6ms ~= 166.67*RT, ~65500.00UPS, vehicles TOT 521 ACT 393)      Step #4047.00Warning: Teleporting vehicle 'l6_h1_c4'; waited too long, lane='25633229#6_1', time=4047.00.
-Warning: Teleporting vehicle 'l5_h1_c2'; waited too long, lane='9040840#9_0', time=4047.00.
-Warning: Teleporting vehicle 'l4_h1_c55'; waited too long, lane='-20862249#6_0', time=4047.00.
-Warning: Vehicle 'l6_h1_c4' ends teleporting on edge '25633229#7', simulation time 4047.00.
-Warning: Vehicle 'l5_h1_c2' ends teleporting on edge '9040840#10', simulation time 4047.00.
- (6ms ~= 166.67*RT, ~65500.00UPS, vehicles TOT 522 ACT 393)      Step #4048.00 (4ms ~= 250.00*RT, ~98500.00UPS, vehicles TOT 523 ACT 394)      Step #4049.00Warning: Teleporting vehicle 'l2_h1_t6'; waited too long, lane='23595097#2_1', time=4049.00.
-Warning: Teleporting vehicle 'l5_h1_c11'; waited too long, lane='24234050#0_0', time=4049.00.
-Warning: Teleporting vehicle 'l3_h1_c45'; waited too long, lane='-20862444#1_0', time=4049.00.
-Warning: Teleporting vehicle 'l2_h1_c40'; waited too long, lane='-48962497#2_0', time=4049.00.
-Warning: Vehicle 'l2_h1_t6' ends teleporting on edge '-48962497#3', simulation time 4049.00.
-Warning: Vehicle 'l5_h1_c11' ends teleporting on edge '24234050#1', simulation time 4049.00.
-Warning: Vehicle 'l3_h1_c45' ends teleporting on edge '-20862444#0', simulation time 4049.00.
- (5ms ~= 200.00*RT, ~78600.00UPS, vehicles TOT 523 ACT 393)      Step #4050.00 (5ms ~= 200.00*RT, ~78400.00UPS, vehicles TOT 524 ACT 392)      Step #4051.00Warning: Teleporting vehicle 'l2_h1_c34'; waited too long, lane='23595097#5_1', time=4051.00.
-Warning: Teleporting vehicle 'l1_h1_c13'; waited too long, lane='-20862083#2_0', time=4051.00.
-Warning: Vehicle 'l2_h1_c34' ends teleporting on edge '23595097#6', simulation time 4051.00.
-Warning: Vehicle 'l1_h1_c13' ends teleporting on edge '-20862083#1', simulation time 4051.00.
- (5ms ~= 200.00*RT, ~79000.00UPS, vehicles TOT 527 ACT 395)      Step #4052.00Warning: Teleporting vehicle 'l4_h1_c31'; waited too long, lane='9646899#11_0', time=4052.00.
-Warning: Teleporting vehicle 'l2_h1_c19'; waited too long, lane='20862249#1_0', time=4052.00.
-Warning: Vehicle 'l3_h1_c64' ends teleporting on edge '-24388108#4', simulation time 4052.00.
-Warning: Vehicle 'l4_h1_c31' ends teleporting on edge '9646899#12', simulation time 4052.00.
-Warning: Vehicle 'l2_h1_c19' ends teleporting on edge '20862249#2', simulation time 4052.00.
- (5ms ~= 200.00*RT, ~79000.00UPS, vehicles TOT 527 ACT 395)      Step #4053.00Warning: Teleporting vehicle 'l2_h1_c55'; waited too long, lane='49248915#0_1', time=4053.00.
-Warning: Vehicle 'l2_h1_c55' ends teleporting on edge '49248915#1', simulation time 4053.00.
- (5ms ~= 200.00*RT, ~79200.00UPS, vehicles TOT 529 ACT 396)      Step #4054.00 (5ms ~= 200.00*RT, ~79600.00UPS, vehicles TOT 531 ACT 398)      Step #4055.00Warning: Teleporting vehicle 'l3_h1_c48'; waited too long, lane='25633229#1_1', time=4055.00.
-Warning: Teleporting vehicle 'l3_h1_c12'; waited too long, lane='9646899#14_0', time=4055.00.
-Warning: Teleporting vehicle 'l6_h1_c38'; waited too long, lane='-28959165#3_0', time=4055.00.
-Warning: Teleporting vehicle 'l4_h1_c51'; waited too long, lane='-20862444#4_0', time=4055.00.
-Warning: Vehicle 'l3_h1_c12' ends teleporting on edge '-48962497#2', simulation time 4055.00.
-Warning: Vehicle 'l6_h1_c38' ends teleporting on edge '-28959165#2', simulation time 4055.00.
-Warning: Vehicle 'l4_h1_c51' ends teleporting on edge '-20862444#3', simulation time 4055.00.
- (5ms ~= 200.00*RT, ~79200.00UPS, vehicles TOT 531 ACT 396)      Step #4056.00Warning: Teleporting vehicle 'l6_h1_t0'; waited too long, lane='-12824415#1_0', time=4056.00.
-Warning: Teleporting vehicle 'l6_h1_c43'; waited too long, lane='26721801#2_0', time=4056.00.
-Warning: Vehicle 'l6_h1_t0' ends teleporting on edge '25633229#5', simulation time 4056.00.
-Warning: Vehicle 'l6_h1_c43' ends teleporting on edge '-28959165#3', simulation time 4056.00.
- (6ms ~= 166.67*RT, ~66000.00UPS, vehicles TOT 531 ACT 396)      Step #4057.00Warning: Teleporting vehicle 'l3_h1_c44'; waited too long, lane='9646899#8_0', time=4057.00.
-Warning: Vehicle 'l3_h1_c44' ends teleporting on edge '9646899#9', simulation time 4057.00.
- (4ms ~= 250.00*RT, ~98750.00UPS, vehicles TOT 532 ACT 395)      Step #4058.00Warning: Teleporting vehicle 'l3_h1_c7'; waited too long, lane='9646899#14_1', time=4058.00.
-Warning: Teleporting vehicle 'l4_h1_c33'; waited too long, lane='48962611#4_0', time=4058.00.
-Warning: Vehicle 'l3_h1_c7' ends teleporting on edge '9646899#15', simulation time 4058.00.
- (5ms ~= 200.00*RT, ~78800.00UPS, vehicles TOT 533 ACT 394)      Step #4059.00Warning: Teleporting vehicle 'l3_h1_c47'; waited too long, lane='9646899#8_1', time=4059.00.
-Warning: Teleporting vehicle 'l3_h1_c67'; waited too long, lane='-24388108#5_1', time=4059.00.
-Warning: Teleporting vehicle 'l6_h1_c12'; waited too long, lane='-12824415#1_1', time=4059.00.
-Warning: Teleporting vehicle 'l5_h1_c41'; waited too long, lane='-26988747#4_0', time=4059.00.
-Warning: Teleporting vehicle 'l2_h1_c23'; waited too long, lane='41339976#2_0', time=4059.00.
-Warning: Vehicle 'l3_h1_c47' ends teleporting on edge '9646899#9', simulation time 4059.00.
-Warning: Vehicle 'l3_h1_c67' ends teleporting on edge '-24388108#4', simulation time 4059.00.
-Warning: Vehicle 'l6_h1_c12' ends teleporting on edge '-12824415#0', simulation time 4059.00.
-Warning: Vehicle 'l5_h1_c41' ends teleporting on edge '-26988747#3', simulation time 4059.00.
-Warning: Vehicle 'l2_h1_c23' ends teleporting on edge '-48962611#5', simulation time 4059.00.
- (6ms ~= 166.67*RT, ~65500.00UPS, vehicles TOT 534 ACT 393)      Step #4060.00Warning: Teleporting vehicle 'l6_h1_c29'; waited too long, lane='-28959165#1_0', time=4060.00.
-Warning: Teleporting vehicle 'l4_h1_c61'; waited too long, lane='20862083#1_0', time=4060.00.
-Warning: Vehicle 'l6_h1_c29' ends teleporting on edge '-28959165#0', simulation time 4060.00.
-Warning: Vehicle 'l4_h1_c61' ends teleporting on edge '20862181#0', simulation time 4060.00.
- (5ms ~= 200.00*RT, ~78800.00UPS, vehicles TOT 538 ACT 394)      Step #4061.00 (5ms ~= 200.00*RT, ~78800.00UPS, vehicles TOT 538 ACT 394)      Step #4062.00Warning: Teleporting vehicle 'l3_h1_c34'; waited too long, lane='9646899#11_1', time=4062.00.
-Warning: Teleporting vehicle 'l4_h1_c59'; waited too long, lane='9646899#2_1', time=4062.00.
-Warning: Teleporting vehicle 'l2_h1_t6'; waited too long, lane='-48962497#3_0', time=4062.00.
-Warning: Vehicle 'l3_h1_c34' ends teleporting on edge '9646899#12', simulation time 4062.00.
-Warning: Vehicle 'l4_h1_c59' ends teleporting on edge '9646899#3', simulation time 4062.00.
- (5ms ~= 200.00*RT, ~79200.00UPS, vehicles TOT 540 ACT 396)      Step #4063.00Warning: Teleporting vehicle 'l2_h1_t10'; waited too long, lane='49248915#0_0', time=4063.00.
-Warning: Teleporting vehicle 'l5_h1_c40'; waited too long, lane='-26988747#1_0', time=4063.00.
-Warning: Teleporting vehicle 'l2_h1_c39'; waited too long, lane='-48962497#2_0', time=4063.00.
-Warning: Teleporting vehicle 'l5_h1_c39'; waited too long, lane='-26988747#0_0', time=4063.00.
-Warning: Vehicle 'l2_h1_t10' ends teleporting on edge '49248915#1', simulation time 4063.00.
-Warning: Vehicle 'l5_h1_c40' ends teleporting on edge '-26988747#0', simulation time 4063.00.
-Warning: Vehicle 'l5_h1_c39' ends teleporting on edge '-28959165#3', simulation time 4063.00.
- (5ms ~= 200.00*RT, ~79000.00UPS, vehicles TOT 540 ACT 395)      Step #4064.00Warning: Teleporting vehicle 'l4_h1_c62'; waited too long, lane='-24388108#5_0', time=4064.00.
-Warning: Vehicle 'l4_h1_c62' ends teleporting on edge '-24388108#4', simulation time 4064.00.
- (4ms ~= 250.00*RT, ~98750.00UPS, vehicles TOT 540 ACT 395)      Step #4065.00Warning: Teleporting vehicle 'l2_h1_c38'; waited too long, lane='23595097#5_1', time=4065.00.
-Warning: Teleporting vehicle 'l4_h1_c78'; waited too long, lane='30784485#1_0', time=4065.00.
-Warning: Vehicle 'l2_h1_c38' ends teleporting on edge '23595097#6', simulation time 4065.00.
-Warning: Vehicle 'l4_h1_c78' ends teleporting on edge '30784485#2', simulation time 4065.00.
- (5ms ~= 200.00*RT, ~79200.00UPS, vehicles TOT 542 ACT 396)      Step #4066.00Warning: Teleporting vehicle 'l2_h1_c44'; waited too long, lane='23595097#2_1', time=4066.00.
-Warning: Vehicle 'l2_h1_c44' ends teleporting on edge '-48962497#3', simulation time 4066.00.
- (5ms ~= 200.00*RT, ~79200.00UPS, vehicles TOT 542 ACT 396)      Step #4067.00Warning: Teleporting vehicle 'l3_h1_c36'; waited too long, lane='9646899#11_0', time=4067.00.
-Warning: Teleporting vehicle 'l2_h1_c56'; waited too long, lane='49248915#0_1', time=4067.00.
-Warning: Vehicle 'l3_h1_c36' ends teleporting on edge '9646899#12', simulation time 4067.00.
-Warning: Vehicle 'l2_h1_c56' ends teleporting on edge '49248915#1', simulation time 4067.00.
- (5ms ~= 200.00*RT, ~79800.00UPS, vehicles TOT 545 ACT 399)      Step #4068.00 (6ms ~= 166.67*RT, ~66666.67UPS, vehicles TOT 546 ACT 400)      Step #4069.00Warning: Teleporting vehicle 'l6_h1_c39'; waited too long, lane='-28959165#3_0', time=4069.00.
-Warning: Vehicle 'l6_h1_c39' ends teleporting on edge '-28959165#2', simulation time 4069.00.
- (6ms ~= 166.67*RT, ~66833.33UPS, vehicles TOT 547 ACT 401)      Step #4070.00Warning: Teleporting vehicle 'l3_h1_c19'; waited too long, lane='9646899#14_0', time=4070.00.
-Warning: Teleporting vehicle 'l3_h1_c22'; waited too long, lane='-31406339#3_0', time=4070.00.
-Warning: Vehicle 'l3_h1_c19' ends teleporting on edge '-48962497#2', simulation time 4070.00.
- (5ms ~= 200.00*RT, ~80200.00UPS, vehicles TOT 548 ACT 401)      Step #4071.00Warning: Teleporting vehicle 'l1_h1_c21'; waited too long, lane='-48962611#5_0', time=4071.00.
-Warning: Teleporting vehicle 'l4_h1_c52'; waited too long, lane='-20862444#4_0', time=4071.00.
-Warning: Vehicle 'l1_h1_c21' ends teleporting on edge '-48962611#4', simulation time 4071.00.
-Warning: Vehicle 'l4_h1_c52' ends teleporting on edge '-20862444#3', simulation time 4071.00.
- (5ms ~= 200.00*RT, ~80000.00UPS, vehicles TOT 548 ACT 400)      Step #4072.00Warning: Teleporting vehicle 'l5_h1_c11'; waited too long, lane='31406339#0_0', time=4072.00.
- (5ms ~= 200.00*RT, ~80400.00UPS, vehicles TOT 551 ACT 402)      Step #4073.00 (5ms ~= 200.00*RT, ~80200.00UPS, vehicles TOT 552 ACT 401)      Step #4074.00Warning: Teleporting vehicle 'l3_h1_c62'; waited too long, lane='-24388108#5_1', time=4074.00.
-Warning: Teleporting vehicle 'l6_h1_c10'; waited too long, lane='-12824415#1_1', time=4074.00.
-Warning: Teleporting vehicle 'l6_h1_c11'; waited too long, lane='-12824415#1_0', time=4074.00.
-Warning: Teleporting vehicle 'l5_h1_c17'; waited too long, lane='-28959165#1_0', time=4074.00.
-Warning: Teleporting vehicle 'l5_h1_c42'; waited too long, lane='-26988747#4_0', time=4074.00.
-Warning: Vehicle 'l3_h1_c62' ends teleporting on edge '-24388108#4', simulation time 4074.00.
-Warning: Vehicle 'l6_h1_c10' ends teleporting on edge '-12824415#0', simulation time 4074.00.
-Warning: Vehicle 'l6_h1_c11' ends teleporting on edge '25633229#5', simulation time 4074.00.
-Warning: Vehicle 'l5_h1_c17' ends teleporting on edge '-28959165#0', simulation time 4074.00.
-Warning: Vehicle 'l5_h1_c42' ends teleporting on edge '-26988747#3', simulation time 4074.00.
- (6ms ~= 166.67*RT, ~66833.33UPS, vehicles TOT 552 ACT 401)      Step #4075.00 (6ms ~= 166.67*RT, ~67166.67UPS, vehicles TOT 554 ACT 403)      Step #4076.00Warning: Teleporting vehicle 'l4_h1_c60'; waited too long, lane='9646899#2_1', time=4076.00.
-Warning: Teleporting vehicle 'l3_h1_c65'; waited too long, lane='-20862249#6_0', time=4076.00.
-Warning: Vehicle 'l4_h1_c60' ends teleporting on edge '-20862444#5', simulation time 4076.00.
- (6ms ~= 166.67*RT, ~67333.33UPS, vehicles TOT 556 ACT 404)      Step #4077.00 (5ms ~= 200.00*RT, ~81000.00UPS, vehicles TOT 557 ACT 405)      Step #4078.00Warning: Teleporting vehicle 'l3_h1_c12'; waited too long, lane='-48962497#2_0', time=4078.00.
-Warning: Vehicle 'l3_h1_c12' ends teleporting on edge '-48962497#1', simulation time 4078.00.
- (5ms ~= 200.00*RT, ~81200.00UPS, vehicles TOT 559 ACT 406)      Step #4079.00Warning: Teleporting vehicle 'l4_h1_c51'; waited too long, lane='-20862444#1_0', time=4079.00.
-Warning: Vehicle 'l4_h1_c51' ends teleporting on edge '-20862444#0', simulation time 4079.00.
- (5ms ~= 200.00*RT, ~81200.00UPS, vehicles TOT 559 ACT 406)      Step #4080.00Warning: Teleporting vehicle 'l2_h1_c44'; waited too long, lane='-48962497#3_0', time=4080.00.
- (5ms ~= 200.00*RT, ~81600.00UPS, vehicles TOT 561 ACT 408)      Step #4081.00Warning: Vehicle 'l2_h1_c44' ends teleporting on edge '-48962497#2', simulation time 4081.00.
- (6ms ~= 166.67*RT, ~67833.33UPS, vehicles TOT 561 ACT 407)      Step #4082.00 (4ms ~= 250.00*RT, ~102250.00UPS, vehicles TOT 563 ACT 409)     Step #4083.00Warning: Teleporting vehicle 'l6_h1_c13'; waited too long, lane='9040840#6_1', time=4083.00.
-Warning: Teleporting vehicle 'l5_h1_c40'; waited too long, lane='-26988747#0_0', time=4083.00.
-Warning: Vehicle 'l6_h1_c13' ends teleporting on edge '9040840#7', simulation time 4083.00.
-Warning: Vehicle 'l5_h1_c40' ends teleporting on edge '-28959165#3', simulation time 4083.00.
- (5ms ~= 200.00*RT, ~82000.00UPS, vehicles TOT 565 ACT 410)      Step #4084.00 (5ms ~= 200.00*RT, ~81800.00UPS, vehicles TOT 565 ACT 409)      Step #4085.00Warning: Teleporting vehicle 'l3_h1_c66'; waited too long, lane='9646899#2_0', time=4085.00.
-Warning: Teleporting vehicle 'l3_h1_c18'; waited too long, lane='9646899#14_0', time=4085.00.
-Warning: Vehicle 'l3_h1_c66' ends teleporting on edge '9646899#3', simulation time 4085.00.
-Warning: Vehicle 'l3_h1_c18' ends teleporting on edge '-48962497#2', simulation time 4085.00.
- (5ms ~= 200.00*RT, ~82000.00UPS, vehicles TOT 566 ACT 410)      Step #4086.00 (6ms ~= 166.67*RT, ~68333.33UPS, vehicles TOT 567 ACT 410)      Step #4087.00Warning: Teleporting vehicle 'l2_h1_c51'; waited too long, lane='9040840#0_1', time=4087.00.
-Warning: Vehicle 'l2_h1_c51' ends teleporting on edge '9040840#1', simulation time 4087.00.
- (6ms ~= 166.67*RT, ~68333.33UPS, vehicles TOT 568 ACT 410)      Step #4088.00 (5ms ~= 200.00*RT, ~82000.00UPS, vehicles TOT 569 ACT 410)      Step #4089.00 (5ms ~= 200.00*RT, ~82600.00UPS, vehicles TOT 572 ACT 413)      Step #4090.00Warning: Teleporting vehicle 'l6_h1_c10'; waited too long, lane='-12824415#0_0', time=4090.00.
-Warning: Teleporting vehicle 'l5_h1_c48'; waited too long, lane='28965686_0', time=4090.00.
-Warning: Vehicle 'l6_h1_c10' ends teleporting on edge '9040840#6', simulation time 4090.00.
-Warning: Vehicle 'l5_h1_c48' ends teleporting on edge '-26988747#4', simulation time 4090.00.
- (5ms ~= 200.00*RT, ~82600.00UPS, vehicles TOT 573 ACT 413)      Step #4091.00 (6ms ~= 166.67*RT, ~68833.33UPS, vehicles TOT 573 ACT 413)      Step #4092.00Warning: Teleporting vehicle 'l6_h1_c9'; waited too long, lane='48964267#0_0', time=4092.00.
-Warning: Teleporting vehicle 'l3_h1_c69'; waited too long, lane='9646899#2_1', time=4092.00.
-Warning: Teleporting vehicle 'l4_h1_c60'; waited too long, lane='-20862444#5_0', time=4092.00.
-Warning: Vehicle 'l6_h1_c9' ends teleporting on edge '48964267#1', simulation time 4092.00.
-Warning: Vehicle 'l3_h1_c69' ends teleporting on edge '-20862444#5', simulation time 4092.00.
-Warning: Vehicle 'l4_h1_c60' ends teleporting on edge '-20862444#4', simulation time 4092.00.
- (6ms ~= 166.67*RT, ~69000.00UPS, vehicles TOT 574 ACT 414)      Step #4093.00 (6ms ~= 166.67*RT, ~68833.33UPS, vehicles TOT 575 ACT 413)      Step #4094.00Warning: Teleporting vehicle 'l2_h1_c46'; waited too long, lane='-48962497#3_0', time=4094.00.
