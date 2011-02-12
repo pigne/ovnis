@@ -78,6 +78,10 @@ namespace traciclient
 
   typedef std::vector<TLPhase> TLPhaseList;
 
+
+  /**
+   * Client interface to the TraCI server that allow controlling SUMO from a remote host/process.
+   */
   class TraciClient: public ns3::Object
   {
 
@@ -141,8 +145,16 @@ namespace traciclient
     bool
     readAndReportTypeDependent(tcpip::Storage &, int);
 
+    /**
+     * Ask SUMO for a simulation step (1 second
+     * @param targetTime
+     * @param time
+     * @param in
+     * @param out
+     * @return
+     */
     bool
-    simulationStep(int startTime, int & time, std::vector<std::string> & in, std::vector<std::string> & out);
+    simulationStep(int targetTime, int & time, std::vector<std::string> & in, std::vector<std::string> & out);
 
     bool
     getStringList(u_int8_t dom, u_int8_t cmd, const std::string & node, std::vector<std::string> &);
@@ -156,6 +168,21 @@ namespace traciclient
     Position2D
     getPosition2D(std::string &veh);
 
+    /**
+     * Simulate the crash of a vehicle, setting it's speed to 0 and changing it's color to black.
+     * @param nodeId Vehicle's id
+     */
+   void
+    crash(std::string &);
+
+    /**
+     * Change the color of a vehicle with r,g,b values (0..255).
+     * @param nodeId Vehicle's id
+     * @param r Red component of the color
+     * @param g Green component of the color
+     * @param b Blue component of the color
+     */
+    void changeColor(std::string &, int,int,int);
 
     /**
      * All-in-one methods that changes a road (edge) travel time for a given vehicle; then it forces the re-computation of a route, and it finally ask for the new route.
