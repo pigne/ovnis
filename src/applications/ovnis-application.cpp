@@ -205,12 +205,15 @@ namespace ns3
 
   }
 
-
   void
   OvnisApplication::StopApplication(void)
   {
 
   }
 
+  void
+  OvnisApplication::ReceiveData(Ptr<Socket> x)
+  {
+  }
 
 }

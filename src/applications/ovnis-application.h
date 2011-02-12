@@ -73,8 +73,8 @@ namespace ns3
     ~OvnisApplication();
 
 
-     void
-    ReceiveData(Ptr<Socket> );
+     virtual void
+     ReceiveData(Ptr<Socket> );
 
      // inherited from Application base class.
      virtual void

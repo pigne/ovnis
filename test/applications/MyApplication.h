@@ -73,7 +73,7 @@ namespace ns3
     ~MyApplication();
 
 
-     void
+     virtual void
     ReceiveData(Ptr<Socket> );
 
   protected:
