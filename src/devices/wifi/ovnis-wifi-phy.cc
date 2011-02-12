@@ -377,7 +377,7 @@ OvnisWifiPhy::GetChannelNumber() const
 double
 OvnisWifiPhy::GetChannelFrequencyMhz() const
 {
-  return m_channelStartingFrequency + 5 * (GetChannelNumber() - 1);
+  return m_channelStartingFrequency + 5 * GetChannelNumber();
 }
 
 void 
@@ -459,6 +459,7 @@ OvnisWifiPhy::StartReceivePacket (Ptr<Packet> packet,
         m_state->SwitchToRx (rxDuration);
         NS_ASSERT (m_endRxEvent.IsExpired ());
         NotifyRxBegin (packet);
+        m_interference.NotifyRxStart();
         m_endRxEvent = Simulator::Schedule (rxDuration, &OvnisWifiPhy::EndReceive, this,
                                             packet,
                                             event);
@@ -504,6 +505,7 @@ OvnisWifiPhy::SendPacket (Ptr<const Packet> packet, WifiMode txMode, WifiPreambl
   if (m_state->IsStateRx ())
     {
       m_endRxEvent.Cancel ();
+      m_interference.NotifyRxEnd ();
     }
   NotifyTxBegin (packet);
   uint32_t dataRate500KbpsUnits = txMode.GetDataRate () / 500000;   
@@ -752,8 +754,18 @@ OvnisWifiPhy::GetPowerDbm (uint8_t power) const
 {
   NS_ASSERT (m_txPowerBaseDbm <= m_txPowerEndDbm);
   NS_ASSERT (m_nTxPower > 0);
-  double dbm = m_txPowerBaseDbm + power * (m_txPowerEndDbm - m_txPowerBaseDbm) / m_nTxPower;
-  return dbm;
+  //double dbm = m_txPowerBaseDbm + power * (m_txPowerEndDbm - m_txPowerBaseDbm) / m_nTxPower;
+   double dbm;
+  if (m_nTxPower > 1)
+    {
+      dbm = m_txPowerBaseDbm + power * (m_txPowerEndDbm - m_txPowerBaseDbm) / (m_nTxPower - 1);
+    }
+  else 
+    {
+      NS_ASSERT_MSG (m_txPowerBaseDbm == m_txPowerEndDbm, "cannot have TxPowerEnd != TxPowerStart with TxPowerLevels == 1");
+      dbm = m_txPowerBaseDbm;
+    }
+	return dbm;
 }
 
 void
@@ -765,6 +777,7 @@ OvnisWifiPhy::EndReceive (Ptr<Packet> packet, Ptr<InterferenceHelper::Event> eve
 
   struct InterferenceHelper::SnrPer snrPer;
   snrPer = m_interference.CalculateSnrPer (event);
+  m_interference.NotifyRxEnd();
 
   NS_LOG_DEBUG ("mode="<<(event->GetPayloadMode ().GetDataRate ())<<
                 ", snr="<<snrPer.snr<<", per="<<snrPer.per<<", size="<<packet->GetSize ());
