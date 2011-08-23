@@ -127,7 +127,7 @@ namespace ns3
     NS_LOG_FUNCTION_NOARGS();
     Ipv4Address add = Ipv4Address::GetBroadcast();
 
-    Address realTo = InetSocketAddress(add, CrashTestApplication::m_port);
+    Address realTo = InetSocketAddress(add, MyApplication::m_port);
     Ptr<Packet> p = CreateStatePacket(date, edge);
     ovnis->globalStat("SentData", (double) p->GetSize());
 
