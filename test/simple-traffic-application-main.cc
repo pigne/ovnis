@@ -71,7 +71,7 @@ main(int argc, char ** argv)
   bool startSumo= true;
 
   string sumoHost="localhost";
-  string sumoPath="/opt/sumo/bin/sumo";
+  string sumoPath="/usr/local/bin/sumo";
   cmd.AddValue("sumoConfig", "The SUMO xml config file", sumoConfig);
   cmd.AddValue("sumoHost", "Name of the machine hosting SUMO", sumoHost);
   cmd.AddValue("startTime",

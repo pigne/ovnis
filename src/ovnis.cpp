@@ -369,11 +369,9 @@ namespace ns3
     wifi.SetStandard(WIFI_PHY_STANDARD_80211b);
     wifi.SetRemoteStationManager("ns3::ConstantRateWifiManager", "DataMode", StringValue("OfdmRate54Mbps"));
     address.SetBase("10.0.0.0", "255.0.0.0");
-    Ssid ssid = Ssid ("wifi-default");
     mac = NqosWifiMacHelper::Default();
-    //mac.SetType("ns3::AdhocWifiMac");
-    mac.SetType("ns3::ApWifiMac","Ssid", SsidValue (ssid));
-    //mac.SetType("ns3::StaWifiMac");
+    mac.SetType("ns3::AdhocWifiMac");
+
   }
   void
   Ovnis::uppdateVehiclesPositions()
