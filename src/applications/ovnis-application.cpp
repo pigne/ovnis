@@ -97,7 +97,7 @@ namespace ns3
         duration = m_stopTime.GetSeconds() - m_realStartDate.GetSeconds();
       else
         duration = Simulator::Now().GetSeconds() - m_realStartDate.GetSeconds();
-      std::cout<<duration<<std::endl;
+      std::cout << duration << std::endl;
       ovnis->globalStat("JourneyDuration", duration);
       ovnis->globalStat("JourneyLength", (double) m_route.size());
     }
@@ -114,9 +114,7 @@ namespace ns3
   {
     NS_LOG_DEBUG(m_name);
 
-
     traciClient ->getString(CMD_GET_VEHICLE_VARIABLE, VAR_ROAD_ID, m_name, m_edge);
-
 
     // ask for max_speed
     string lane;
@@ -193,10 +191,6 @@ namespace ns3
       }
 
     }
-
-
-
-
 
     ///
 

@@ -966,6 +966,78 @@ namespace traciclient
 
   }
 
+
+  // XXXXXXXXXXXXXXXXXXX
+  void
+  TraciClient::changeRoute(std::string nodeId,std::vector<std::string> stringList){
+    tcpip::Storage outMsg;
+        tcpip::Storage inMsg;
+        std::stringstream msg;
+
+        if (socket.port() == 0)
+        {
+          msg << "#Error while sending command: no connection to server";
+          errorMsg(msg);
+          return;
+        }
+
+        int size_of_strings=0;
+        for (std::vector<std::string>::iterator i = stringList.begin(); i != stringList.end(); ++i)
+           {
+              size_of_strings+=(4+(*i).size());
+           }
+        // command length
+        outMsg.writeUnsignedByte(1 + 1 + 1 + (4 + (int) nodeId.length()) + 1 + 4 +
+             size_of_strings );
+        // command id
+        outMsg.writeUnsignedByte(CMD_SET_VEHICLE_VARIABLE);
+
+        outMsg.writeUnsignedByte(VAR_ROUTE);
+        // vehicle id
+        outMsg.writeString(nodeId);
+        //type of value (string list) : byte
+        outMsg.writeUnsignedByte(TYPE_STRINGLIST);
+
+        //number of edges in the route : int
+        outMsg.writeInt(stringList.size());
+
+        for (std::vector<std::string>::iterator i = stringList.begin(); i != stringList.end(); ++i)
+        {
+          outMsg.writeString((*i));
+        }
+
+        // send request message
+        try
+        {
+          socket.sendExact(outMsg);
+        }
+        catch (SocketException &e)
+        {
+          msg << "Error while sending command: " << e.what();
+          errorMsg(msg);
+          return;
+        }
+
+        // receive answer message
+        try
+        {
+          socket.receiveExact(inMsg);
+        }
+        catch (SocketException &e)
+        {
+          msg << "Error while receiving command: " << e.what();
+          errorMsg(msg);
+          return;
+        }
+
+        // validate result state
+        if (!reportResultState(inMsg, CMD_SET_VEHICLE_VARIABLE))
+        {
+          return;
+        }
+  }
+
+
   void
   TraciClient::changeRoad(std::string nodeId, std::string roadId, float travelTime)
   {

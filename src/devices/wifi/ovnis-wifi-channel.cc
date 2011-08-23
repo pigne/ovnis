@@ -51,10 +51,13 @@ namespace ns3
   {
     static TypeId
         tid =
-            TypeId("ns3::OvnisWifiChannel") .SetParent<WifiChannel> () .AddConstructor<OvnisWifiChannel> () .AddAttribute(
+            TypeId("ns3::OvnisWifiChannel")
+            .SetParent<WifiChannel> ()
+            .AddConstructor<OvnisWifiChannel> () .AddAttribute(
                 "PropagationLossModel", "A pointer to the propagation loss model attached to this channel.",
                 PointerValue(), MakePointerAccessor(&OvnisWifiChannel::m_loss),
-                MakePointerChecker<PropagationLossModel> ()) .AddAttribute("PropagationDelayModel",
+                MakePointerChecker<PropagationLossModel> ())
+                .AddAttribute("PropagationDelayModel",
                 "A pointer to the propagation delay model attached to this channel.", PointerValue(),
                 MakePointerAccessor(&OvnisWifiChannel::m_delay), MakePointerChecker<PropagationDelayModel> ());
     return tid;
@@ -91,7 +94,7 @@ namespace ns3
   OvnisWifiChannel::Send(Ptr<OvnisWifiPhy> sender, Ptr<const Packet> packet, double txPowerDbm, WifiMode wifiMode,
       WifiPreamble preamble) const
   {
-    //NS_LOG_FUNCTION_NOARGS();
+    NS_LOG_FUNCTION_NOARGS();
 
     Ptr<MobilityModel> senderMobility = sender->GetMobility()->GetObject<MobilityModel> ();
     NS_ASSERT (senderMobility != 0);

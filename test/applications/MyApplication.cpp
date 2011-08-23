@@ -125,11 +125,17 @@ namespace ns3
   MyApplication::SendState(float date, const string & edge)
   {
     NS_LOG_FUNCTION_NOARGS();
-    Address realTo = InetSocketAddress(Ipv4Address("255.255.255.255"), MyApplication::m_port);
-    Ptr<Packet> p = CreateStatePacket(date, edge);
-    ovnis->globalStat("SentData",(double)p->GetSize());
+    Ipv4Address add = Ipv4Address::GetBroadcast();
 
-    m_Socket->SendTo(p, 0, realTo);
+    Address realTo = InetSocketAddress(add, CrashTestApplication::m_port);
+    Ptr<Packet> p = CreateStatePacket(date, edge);
+    ovnis->globalStat("SentData", (double) p->GetSize());
+
+    if(m_Socket->SendTo(p, 0, realTo) == -1)
+    {
+      cerr<<"CrashTestApplication : error while sending packet : "<<m_Socket->GetErrno()<<""<<Socket::ERROR_OPNOTSUPP<<endl;
+      exit(-1);
+    }
 
   }
 
@@ -186,8 +192,9 @@ void
 
       Ptr<SocketFactory> socketFactory = GetNode()->GetObject<UdpSocketFactory> ();
       m_Socket = socketFactory->CreateSocket();
+      m_Socket->SetAllowBroadcast(true);
       m_Socket->SetRecvCallback(MakeCallback(&MyApplication::ReceiveData, this));
-      m_Socket->Bind(InetSocketAddress(Ipv4Address("0.0.0.0"), m_port));
+      m_Socket->Bind(InetSocketAddress(Ipv4Address::GetAny(), m_port));
       // store the own address
       Ptr<Ipv4> ipv4 = GetNode()->GetObject<Ipv4> ();
 

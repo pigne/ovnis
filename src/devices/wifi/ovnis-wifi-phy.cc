@@ -508,12 +508,17 @@ OvnisWifiPhy::SendPacket (Ptr<const Packet> packet, WifiMode txMode, WifiPreambl
       m_interference.NotifyRxEnd ();
     }
   NotifyTxBegin (packet);
-  uint32_t dataRate500KbpsUnits = txMode.GetDataRate () / 500000;   
+
+  uint32_t dataRate500KbpsUnits = txMode.GetDataRate () / 500000;
   bool isShortPreamble = (WIFI_PREAMBLE_SHORT == preamble);
+
   NotifyPromiscSniffTx (packet, (uint16_t)GetChannelFrequencyMhz (), GetChannelNumber (), dataRate500KbpsUnits, isShortPreamble);
+
   m_state->SwitchToTx (txDuration, packet, txMode, preamble, txPower);
+
   m_channel->Send (this, packet, GetPowerDbm (txPower) + m_txGainDb, txMode, preamble);
-}
+
+ }
 
 uint32_t 
 OvnisWifiPhy::GetNModes (void) const

@@ -193,6 +193,12 @@ namespace traciclient
     void
    changeRoad(std::string nodeId, std::string roadId, float travelTime);
 
+// XXXXXXXXXXXXXXXXXXXXXX
+    void
+    changeRoute(std::string nodeId, std::vector<std::string> stringList);
+
+
+
   private:
     tcpip::Socket socket;
 
