@@ -24,7 +24,7 @@
 #include <iostream>
 #include <cmath>
 #include <math.h>
-#include <mach/mach_time.h>
+//#include <mach/mach_time.h>
 #include <time.h>
 //
 // ----- NS-3 related includes
@@ -53,6 +53,8 @@
 
 using namespace std;
 
+
+/*
 void
 mach_absolute_difference(uint64_t end, uint64_t start, struct timespec *tp)
 {
@@ -68,7 +70,7 @@ mach_absolute_difference(uint64_t end, uint64_t start, struct timespec *tp)
   tp->tv_sec = elapsednano * 1e-9;
   tp->tv_nsec = elapsednano - (tp->tv_sec * 1e9);
 }
-
+*/
 namespace ns3
 {
   NS_LOG_COMPONENT_DEFINE ("Ovnis");
@@ -131,7 +133,7 @@ namespace ns3
     NS_LOG_FUNCTION_NOARGS();
     Names::Add("Ovnis", this);
 
-    start = mach_absolute_time();
+    //start = mach_absolute_time();
 
     currentTime = 0;
 
@@ -367,9 +369,11 @@ namespace ns3
     wifi.SetStandard(WIFI_PHY_STANDARD_80211b);
     wifi.SetRemoteStationManager("ns3::ConstantRateWifiManager", "DataMode", StringValue("OfdmRate54Mbps"));
     address.SetBase("10.0.0.0", "255.0.0.0");
+    Ssid ssid = Ssid ("wifi-default");
     mac = NqosWifiMacHelper::Default();
-    mac.SetType("ns3::AdhocWifiMac");
-
+    //mac.SetType("ns3::AdhocWifiMac");
+    mac.SetType("ns3::ApWifiMac","Ssid", SsidValue (ssid));
+    //mac.SetType("ns3::StaWifiMac");
   }
   void
   Ovnis::uppdateVehiclesPositions()
@@ -398,7 +402,7 @@ namespace ns3
       Ptr<WifiPhy> wp = wd->GetPhy();
       Ptr<OvnisWifiPhy> ywp = DynamicCast<OvnisWifiPhy> (wp);
       channel->updatePhy(ywp);
-      globalStat("VehicleSpeed", newSpeed);
+      //globalStat("VehicleSpeed", newSpeed);
     }
 
   }
