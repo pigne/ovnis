@@ -143,7 +143,7 @@ namespace ns3
     // Start SUMO ?
     if (startSumo)
     {
-      sumoHost = "localhost";
+//      sumoHost = "localhost";
       if (fork() == 0)
       {
         char buff[512];
