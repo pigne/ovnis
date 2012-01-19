@@ -1,5 +1,5 @@
 # additional include paths necessary to compile the C++ programs
-AM_CXXFLAGS = -I$(top_srcdir) -I$(top_srcdir)/src  @AM_CPPFLAGS@
+AM_CXXFLAGS = -I$(top_srcdir) -I$(top_srcdir)/src  @AM_CPPFLAGS@ -DNS3_LOG_ENABLE
 
 bin_PROGRAMS = ovnisSample ovnisSample_static 
 
