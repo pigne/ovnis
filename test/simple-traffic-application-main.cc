@@ -71,7 +71,7 @@ main(int argc, char ** argv)
   bool startSumo= true;
 
   string sumoHost="localhost";
-  string sumoPath="/usr/local/bin/sumo";
+  string sumoPath="/opt/sumo/bin/sumo";
   cmd.AddValue("sumoConfig", "The SUMO xml config file", sumoConfig);
   cmd.AddValue("sumoHost", "Name of the machine hosting SUMO", sumoHost);
   cmd.AddValue("startTime",
@@ -98,7 +98,7 @@ main(int argc, char ** argv)
 
 
 
-  Simulator::Schedule(Simulator::Now(), &Ovnis::Start, expe);
+  Simulator::Schedule(Seconds(0), &Ovnis::Start, expe);
   Simulator::Run();
   Simulator::Destroy();
 

@@ -54,23 +54,7 @@
 using namespace std;
 
 
-/*
-void
-mach_absolute_difference(uint64_t end, uint64_t start, struct timespec *tp)
-{
-  uint64_t difference = end - start;
-  static mach_timebase_info_data_t info =
-  { 0, 0 };
 
-  if (info.denom == 0)
-    mach_timebase_info(&info);
-
-  uint64_t elapsednano = difference * (info.numer / info.denom);
-
-  tp->tv_sec = elapsednano * 1e-9;
-  tp->tv_nsec = elapsednano - (tp->tv_sec * 1e9);
-}
-*/
 namespace ns3
 {
   NS_LOG_COMPONENT_DEFINE ("Ovnis");
@@ -80,35 +64,27 @@ namespace ns3
   Ovnis::GetTypeId(void)
   {
     static TypeId tid = TypeId("ns3::Ovnis") .SetParent<Object> () .AddConstructor<Ovnis> ()
-
-    .AddAttribute("OvnisApplication", "Application used in devices", StringValue("ns3::OvnisApplication"),
-        MakeStringAccessor(&Ovnis::m_ovnis_application), MakeStringChecker())
-    .AddAttribute("SumoConfig",
-        "The configuration file for running SUMO", StringValue(
-            "/Users/pigne/Documents/Projects/TrafficSimulation/SimpleTrafficApplication/kirchberg.sumo.cfg"),
-        MakeStringAccessor(&Ovnis::sumoConfig), MakeStringChecker())
-    .AddAttribute("SumoHost",
-        "The host machine on which SUMO will run", StringValue(SUMO_HOST), MakeStringAccessor(&Ovnis::sumoHost),
-        MakeStringChecker())
-    .AddAttribute("StartTime", "Start time in the simulation scale (in seconds)", IntegerValue(0),
-        MakeIntegerAccessor(&Ovnis::startTime), MakeIntegerChecker<int> (0))
-    .AddAttribute("StopTime",
-        "Stop time in the simulation scale (in seconds)", IntegerValue(0), MakeIntegerAccessor(&Ovnis::stopTime),
-        MakeIntegerChecker<int> (0))
-    .AddAttribute("CommunicationRange",
-        "Communication range used to subdivide the simulation space (in meters)", DoubleValue(500.0),
-        MakeDoubleAccessor(&Ovnis::communicationRange), MakeDoubleChecker<double> (0.0))
-    .AddAttribute("StartSumo",
-        "Does OVNIS have to start SUMO or not?", BooleanValue(), MakeBooleanAccessor(
-                    &Ovnis::startSumo), MakeBooleanChecker())
-    .AddAttribute("SumoPath",
-        "The system path where the SUMO executable is located", StringValue(SUMO_PATH), MakeStringAccessor(
-            &Ovnis::sumoPath), MakeStringChecker());
+      .AddAttribute("OvnisApplication", "Application used in devices",
+          StringValue("ns3::OvnisApplication"), MakeStringAccessor(&Ovnis::m_ovnis_application), MakeStringChecker())
+      .AddAttribute("SumoConfig","The configuration file for running SUMO",
+          StringValue("./test.sumo.cfg"), MakeStringAccessor(&Ovnis::sumoConfig), MakeStringChecker())
+      .AddAttribute("SumoHost", "The host machine on which SUMO will run",
+          StringValue(SUMO_HOST), MakeStringAccessor(&Ovnis::sumoHost), MakeStringChecker())
+      .AddAttribute("StartTime", "Start time in the simulation scale (in seconds)",
+          IntegerValue(0),MakeIntegerAccessor(&Ovnis::startTime), MakeIntegerChecker<int> (0))
+      .AddAttribute("StopTime", "Stop time in the simulation scale (in seconds)",
+          IntegerValue(0), MakeIntegerAccessor(&Ovnis::stopTime), MakeIntegerChecker<int> (0))
+      .AddAttribute("CommunicationRange", "Communication range used to subdivide the simulation space (in meters)",
+          DoubleValue(500.0), MakeDoubleAccessor(&Ovnis::communicationRange), MakeDoubleChecker<double> (0.0))
+      .AddAttribute("StartSumo", "Does OVNIS have to start SUMO or not?",
+          BooleanValue(), MakeBooleanAccessor(&Ovnis::startSumo), MakeBooleanChecker())
+      .AddAttribute("SumoPath", "The system path where the SUMO executable is located",
+          StringValue(SUMO_PATH), MakeStringAccessor(&Ovnis::sumoPath), MakeStringChecker());
 
     return tid;
   }
 
-  Ovnis::Ovnis(/*sumoConfig, startTime, stopTime*/) :
+  Ovnis::Ovnis() :
     runningVehicles(), in(), out(), loaded()
   {
   }
@@ -122,7 +98,6 @@ namespace ns3
   void
   Ovnis::DoDispose()
   {
-    // Fermer les fichiers et autres ici
     computeStats();
     Object::DoDispose();
   }
@@ -130,15 +105,16 @@ namespace ns3
   void
   Ovnis::DoStart(void)
   {
-    NS_LOG_FUNCTION_NOARGS();
+    NS_LOG_FUNCTION(Simulator::Now().GetSeconds());
     Names::Add("Ovnis", this);
 
     //start = mach_absolute_time();
 
-    currentTime = 0;
+    currentTime = startTime*1000;
 
     // retrieve SUMO network port number and simulation boundaries from config files.
     XMLSumoConfParser::parseConfiguration(sumoConfig, &port, boundaries);
+
 
     // Start SUMO ?
     if (startSumo)
@@ -186,21 +162,17 @@ namespace ns3
     // submissions : started, stopped
     traciClient->submission(startTime*1000, stopTime*1000);
 
-
     // First run. Reaches the startTime
     traciClient->simulationStep(startTime*1000, currentTime, in, out);
 
-
     //application
     m_application_factory.SetTypeId(m_ovnis_application);
-
-
 
     // Initialize ns-3 devices
     initializeNetwork();
     updateInOutVehicles();
 
-    Simulator::Schedule(Simulator::Now(), &Ovnis::run, this);
+    Simulator::Schedule(Seconds(0), &Ovnis::run, this);
 
     Object::DoStart();
   }
@@ -218,6 +190,7 @@ namespace ns3
     out << std::endl;
     return out.str();
   }
+
   void
   Ovnis::CreateNetworkDevices(NodeContainer node_container)
   {
@@ -237,7 +210,7 @@ namespace ns3
     {
 
       Ptr<Node> n = (*i);
-      Ptr<Ipv4> ipv4 = n->GetObject<Ipv4> ();
+      Ptr<Ipv4> ipv4 = n->GetObject<Ipv4>();
       for (uint32_t j = 0; j < n->GetNDevices(); ++j)
       {
         int32_t ifIndex = ipv4->GetInterfaceForDevice(n->GetDevice(j));
@@ -245,12 +218,12 @@ namespace ns3
       }
       for (uint32_t i = 0; i < n->GetNApplications(); ++i)
       {
-        n->GetApplication(i)-> SetStopTime(Simulator::Now());
+        n->GetApplication(i)->SetStopTime(Simulator::Now());
       }
       Ptr<NetDevice> d = n->GetDevice(0);
-      Ptr<WifiNetDevice> wd = DynamicCast<WifiNetDevice> (d);
+      Ptr<WifiNetDevice> wd = DynamicCast<WifiNetDevice>(d);
       Ptr<WifiPhy> wp = wd->GetPhy();
-      Ptr<OvnisWifiPhy> ywp = DynamicCast<OvnisWifiPhy> (wp);
+      Ptr<OvnisWifiPhy> ywp = DynamicCast<OvnisWifiPhy>(wp);
       channel->Remove(ywp);
     }
   }
@@ -298,7 +271,7 @@ namespace ns3
     //-- Application
     for (NodeContainer::Iterator i = node_container.Begin(); i != node_container.End(); ++i)
     {
-      Ptr<Application> app = m_application_factory.Create<Application> ();
+      Ptr<Application> app = m_application_factory.Create<Application>();
       (*i)->AddApplication(app);
       app->SetStartTime(Seconds(0));
     }
@@ -402,19 +375,19 @@ namespace ns3
       channel->updatePhy(ywp);
       //globalStat("VehicleSpeed", newSpeed);
     }
-
   }
 
   void
   Ovnis::trafficSimulationStep()
   {
+    NS_LOG_FUNCTION(Simulator::Now().GetSeconds());
+
     //  end = mach_absolute_time();
     //  mach_absolute_difference(end, start, &tp);
 
     //  globalStat("StepDuration",(double)(((tp.tv_sec*1000000000)+tp.tv_nsec) / 1000000.0));
     //  start=end;
 
-    NS_LOG_FUNCTION(currentTime);
     // real loop until stop time
     traciClient->simulationStep(currentTime+1000, currentTime, in, out);
 
@@ -492,7 +465,7 @@ namespace ns3
   void
   Ovnis::move()
   {
-    NS_LOG_FUNCTION_NOARGS();
+    NS_LOG_FUNCTION(Simulator::Now().GetSeconds());
 
     for (NodeContainer::Iterator i = node_container.Begin(); i != node_container.End(); ++i)
     {
@@ -515,7 +488,8 @@ namespace ns3
   void
   Ovnis::run()
   {
-    NS_LOG_FUNCTION_NOARGS();
+    NS_LOG_FUNCTION(Simulator::Now().GetSeconds());
+
 
     if (currentTime < (stopTime*1000))
     {
@@ -524,5 +498,11 @@ namespace ns3
 
     }
 
+  }
+
+  long
+  Ovnis::getCurrentTime()
+  {
+    return currentTime;
   }
 }

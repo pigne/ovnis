@@ -39,8 +39,6 @@
 #include "helper/ovnis-wifi-helper.h"
 #include "devices/wifi/ovnis-wifi-channel.h"
 
-
-
 using namespace std;
 using namespace traciclient;
 
@@ -56,24 +54,38 @@ namespace ns3
   class Ovnis : public ns3::Object
   {
   public:
+
     static TypeId
-        GetTypeId(void);
+    GetTypeId(void);
+
     Ovnis();
+
     virtual
     ~Ovnis();
 
+    /**
+     * Launches the simulation
+     */
     void
     run();
 
     void
     globalStat(const string & name, double value);
 
-
-
-
-
+    /**
+     * utility function. Printing...
+     *
+     * @param list
+     * @return
+     */
     static std::string
     outList(std::vector<std::string>& list);
+
+    /**
+     * get the current time in the simulation (SUMO and ns3). In milliseconds
+     */
+    long
+    getCurrentTime();
 
   protected:
 
@@ -110,26 +122,42 @@ namespace ns3
     void
     move();
 
+
     void
     computeStats();
 
-  protected:
+    /**
+     *  current simulation time in ms
+     */
+    int currentTime;
 
     // for statistics
     typedef map<string, StatInput> statType;
     statType stats;
-    uint64_t start,end;
-            struct timespec tp;
+    uint64_t start, end;
+    struct timespec tp;
 
+    /**
+     * the network interface to communicate with SUMO
+     */
     Ptr<TraciClient> traciClient;
 
-    // current time in ms !!!!
-    int currentTime;
-
+    /**
+     * list of vehicles actually running in at a given time of simulation
+     */
     std::vector<std::string> runningVehicles;
 
+    /**
+     * list of new vehicles for current simulation step
+     */
     std::vector<std::string> in;
+    /**
+     * list of vehicles to remove from simulation step at this step
+     */
     std::vector<std::string> out;
+    /**
+     * list of all vehicles loaded by SUMO. Not sure it is useful anymore...
+     */
     std::vector<std::string> loaded;
 
     NodeContainer node_container;
@@ -140,11 +168,16 @@ namespace ns3
     OvnisWifiChannelHelper wifiChannel;
     WifiHelper wifi;
     Ipv4AddressHelper address;
-    ObjectFactory m_application_factory;
+    /**
+     * the channel used by all devices
+     */
     Ptr<OvnisWifiChannel> channel;
 
-    // application
+    /**
+     * name of the application to be installed on devices
+     */
     std::string m_ovnis_application;
+    ObjectFactory m_application_factory;
 
     /**
      * The configuration file for running SUMO
@@ -188,7 +221,6 @@ namespace ns3
      * Do we start SUMO?
      */
     bool startSumo;
-
 
   };
 }
