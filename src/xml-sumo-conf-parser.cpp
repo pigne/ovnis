@@ -59,7 +59,17 @@ XMLSumoConfParser::startElement(const XMLCh* const uri, const XMLCh* const local
   string name(message);
   if ("net-file" == name)
   {
-    is_net_file_name = true;
+
+    XMLCh* q = XMLString::transcode("value");
+    char* value = XMLString::transcode(attrs.getValue(q));
+    if(value!=NULL){
+      net_file_name = string(value);
+      XMLString::release(&value);
+      is_net_file_name = false;
+    }
+    else{
+      is_net_file_name = true;
+    }
   }
 
   if("remote-port" == name)
@@ -150,8 +160,7 @@ XMLSumoConfParser::parseConfiguration(const string & filename, int * p, double* 
     parser->parse(filename.c_str());
 
     parser->parse((base + "/" + defaultHandler->net_file_name).c_str());
-
-  }
+     }
   catch (const XMLException& toCatch)
   {
     char* message = XMLString::transcode(toCatch.getMessage());
