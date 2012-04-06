@@ -1,5 +1,5 @@
 # additional include paths necessary to compile the C++ library
-AM_CXXFLAGS = -I$(top_srcdir) @AM_CPPFLAGS@
+AM_CXXFLAGS = -I$(top_srcdir) @AM_CPPFLAGS@ -DNS3_LOG_ENABLE
 
 # the library names to build (note we are building static libs only)
 #lib_LIBRARIES = libovnis.a
