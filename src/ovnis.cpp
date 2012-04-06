@@ -67,7 +67,7 @@ namespace ns3
       .AddAttribute("OvnisApplication", "Application used in devices",
           StringValue("ns3::OvnisApplication"), MakeStringAccessor(&Ovnis::m_ovnis_application), MakeStringChecker())
       .AddAttribute("SumoConfig","The configuration file for running SUMO",
-          StringValue("./test.sumo.cfg"), MakeStringAccessor(&Ovnis::sumoConfig), MakeStringChecker())
+          StringValue(SUMO_CONFIG), MakeStringAccessor(&Ovnis::sumoConfig), MakeStringChecker())
       .AddAttribute("SumoHost", "The host machine on which SUMO will run",
           StringValue(SUMO_HOST), MakeStringAccessor(&Ovnis::sumoHost), MakeStringChecker())
       .AddAttribute("StartTime", "Start time in the simulation scale (in seconds)",
@@ -219,6 +219,7 @@ namespace ns3
       for (uint32_t i = 0; i < n->GetNApplications(); ++i)
       {
         n->GetApplication(i)->SetStopTime(Simulator::Now());
+        n->GetApplication(i)->Dispose();
       }
       Ptr<NetDevice> d = n->GetDevice(0);
       Ptr<WifiNetDevice> wd = DynamicCast<WifiNetDevice>(d);

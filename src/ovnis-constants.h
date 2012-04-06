@@ -26,17 +26,32 @@
 #ifndef OVNIS_CONSTANTS_H_
 #define OVNIS_CONSTANTS_H_
 
+#ifndef PI
+#define PI 3.14159265
+#endif
+
 
 /// interval of time between 2 active decisions about JAMEs
+#ifndef PROACTIVE_INTERVAL
 #define PROACTIVE_INTERVAL  5
+#endif
 
 
-
-#define PI 3.14159265
 /// period of the movement steps
+#ifndef MOVE_INTERVAL
 #define MOVE_INTERVAL  1
-/// The system path where the SUMO executable is located
-#define SUMO_PATH "/opt/sumo/bin/sumo"
-#define SUMO_HOST "localhost"
+#endif
 
+/// The system path where the SUMO executable is located
+#ifndef SUMO_PATH
+#define SUMO_PATH "/opt/sumo/bin/sumo"
+#endif
+
+#ifndef SUMO_HOST
+#define SUMO_HOST "localhost"
+#endif
+
+#ifndef SUMO_CONFIG
+#define SUMO_CONFIG "./test.sumo.cfg"
+#endif
 #endif /* OVNIS_CONSTANTS_H_ */
